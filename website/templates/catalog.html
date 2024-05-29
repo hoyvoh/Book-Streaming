@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Catalog{% endblock %}
+
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Streaming and Recommendation</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 5000);
+    </script>
+</head>
+<body>
+    <h1>Product List</h1>
+    <div id="products">
+        {% for product in products %}
+            <div class="product">
+                <a href="{{ url_for('product.product_details', product_id=product.get('value').get('ID')) }}">
+                    <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(product.get('value').get('ID'))) }}" alt="">
+                    <h3>{{ product.get('value').get('TITLE', 'Unnamed Product') }}</h3>
+                </a>
+                    <h4>{{ product.get('value').get('PRICE', 'N/A') }}</h4>
+                    <h5>{{ product.get('value').get('AUTHORS', 'N/A') }}</h5>
+                    <p>Đánh giá: {{ product.get('value').get('RATING_AVERAGE', 'N/A') }}</p>
+                    <p>Số đánh giá: {{ product.get('value').get('REVIEW_COUNT', 'N/A') }}</p>
+                    <p>Đã bán: {{ product.get('value').get('all_time_quantity_sold', 'N/A') }}</p>
+                    <p>Tình trạng: {{ product.get('value').get('INVENTORY_STATUS', 'N/A') }}</p>
+                    <p>Nhà bán hàng: {{ product.get('value').get('SELLER_NAME', 'N/A') }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <div>
+        {% if page > 1 %}
+        <div class="back-button">
+            <a href="{{ url_for('product.index', page=page-1) }}">Previous</a>
+        </div>
+        <div class="back-button">
+
+        </div>
+        {% endif %}
+        {% if products|length/40 > 1 %}
+        <div class="back-button">
+            <a href="{{ url_for('product.index', page=page+1) }}">Next</a>
+        </div>
+        {% endif %}
+        
+    </div>
+</body>
+{% endblock %}
