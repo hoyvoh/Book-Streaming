@@ -7,7 +7,7 @@ Throughout the project, I was able to give content based recommendations for spe
 
 This is the high-level presentation of the processing flow:
 
-![Book Streaming](https://drive.google.com/file/uc?export=view&id=1D7URvyL28PRY3QJG_dChUlpDF7lQOhjx)
+https://drive.google.com/file/d/1D7URvyL28PRY3QJG_dChUlpDF7lQOhjx/view?usp=drive_link
 
 If you do not have much of time, check this demo video:
 
