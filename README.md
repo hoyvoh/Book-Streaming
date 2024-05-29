@@ -18,6 +18,7 @@ The API key is temporarily open for demo. I will close it soon after though you 
 ## Environment
 
 Python3.12
+
 Visual Studio C++ build tools
 - MSVC v143 - VS 2022 C++ x64/x86 build tool
 - C++ CMake tool for Windows
