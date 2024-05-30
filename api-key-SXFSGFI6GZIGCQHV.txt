@@ -1,13 +1,13 @@
 === Confluent Cloud API key ===
 
 API key:
-SXFSGFI6GZIGCQHV
+[YOUR KAFKA API KEY]
 
 API secret:
-b3Zz8FhQt0YfvSTqbpKZl3+jms8EbVUncOfoyHxgS9IHIQjCUhM7oHytESJAUxEp
+[YOUR KAFKA API SECRET KEY]
 
 Resource:
-lkc-1d259v
+[YOUR KAFKA CONFIG]
 
 Bootstrap server:
-pkc-12576z.us-west2.gcp.confluent.cloud:9092
+[YOUR KAFKA CONFLUENT SERVER].confluent.cloud:9092
