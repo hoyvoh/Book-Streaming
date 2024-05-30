@@ -10,7 +10,7 @@ import similarity_matrix
 import numpy as np
 
 def get_mongo():
-    # uri = "mongodb+srv://general_user:MongoUser123@cluster0.nex3ywa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true"
+    # uri = "mongodb+srv://[USERNAME]:[PASSWORD]@cluster0.nex3ywa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true"
     uri = 'mongodb://localhost:27017/'
     # Create a new client and connect to the server tlsCAFile=isrgrootx1.pem
     client = MongoClient(uri) # , server_api=ServerApi('1')
