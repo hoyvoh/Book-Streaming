@@ -5,10 +5,10 @@ import threading
 
 # Create a kafka topic to remote 
 def create_kafka_topic():
-    url = "https://pkc-12576z.us-west2.gcp.confluent.cloud:443/kafka/v3/clusters/lkc-1d259v/topics"
+    url = "https://[YOUR KAFKA SERVER].confluent.cloud:443/kafka/v3/clusters/lkc-1d259v/topics"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Basic U1hGU0dGSTZHWklHQ1FIVjpiM1p6OEZoUXQwWWZ2U1RxYnBLWmwzK2ptczhFYlZVbmNPZm95SHhnUzlJSElRakNVaE03b0h5dEVTSkFVeEVw"
+        "Authorization": "Basic [YOUR AUTH KEY]"
     }
     data = {
         "topic_name": "BookStreaming"
@@ -21,6 +21,7 @@ def create_kafka_topic():
         print("Failed to create Kafka topic. Status code:", response.status_code)
         print("Error message:", response.text)
 
+# This practice should be modified if you have your kafka in another folder
 def start_zookeeper():
     try:
         subprocess.run(["C:\\kafka_2.12-3.6.0\\bin\\windows\\zookeeper-server-start.bat", "C:\\kafka_2.12-3.6.0\\config\\zookeeper.properties"], shell=True, check=True)
