@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1D7URvyL28PRY3QJG_dChUlpDF7lQOhjx/view?usp=drive
 
 If you do not have much of time, check this demo video:
 
-https://drive.google.com/file/d/10eIDH2R5tLz91b-K3anuc2Ijq5lxjApu/view?usp=sharing
+[Demo](https://drive.google.com/file/d/1DqAQWNrxSuS-Gn5PxfilrIvVFs26qCQY/view?usp=sharing)
 
 The API key is temporarily open for demo. I will close it soon after though you may not able to access my resources.
 
