@@ -1,0 +1,49 @@
+# static recommendation
+def static_recommendation(product_features, vector_storage): -> list(productIDs)
+    # Step 1: Embed new product features
+    embed_features = feature_embedding(product_features)
+    
+    # Step 2: Find 10 most similar products in existing vectorbase
+    top10 = KMeanClustering(input = embed_features,
+                            vector_storage=vector_storage,
+                            top_k=10)
+
+    # Step 3: Output 10 products    
+    return top10
+
+
+# Dynamic recommendation "You are what you see"
+# Approach 1: Top 10 latest seen product
+def dynamic_recommendation_approach_1(user_vector, 
+                                      user_log, 
+                                      vector_storage, 
+                                      latest_product_feature)
+    # Step 1: Update current user_vector
+    user_vector = update_user_vector(user_vector,
+                                     new_product = latest_product_feature, 
+                                     log=user_log,
+                                     latest=10)
+    
+    # Step 2: Find 10 most similar products in existing vectorbase
+    top10 = KMeanClustering(input = user_vector,
+                            vector_storage=vector_storage,
+                            top_k=10)
+    
+    # Step 3: Output 10 products
+    return top10
+
+# Approach 2: All products have seen
+def dynamic_recommendation_approach_1(user_log, 
+                                      vector_storage, 
+                                      latest_product_feature)
+    # Step 1: Update current user_vector
+    user_vector = update_user_vector(new_product = latest_product_feature, 
+                                     log=user_log)
+    
+    # Step 2: Find 10 most similar products in existing vectorbase
+    top10 = KMeanClustering(input = user_vector,
+                            vector_storage=vector_storage,
+                            top_k=10)
+    
+    # Step 3: Output 10 products
+    return top10

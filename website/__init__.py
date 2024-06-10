@@ -25,6 +25,9 @@ Run Flask app to display all products being added and for each, a detail page
 client = get_mongo()
 db = client['BookDatabase']
 collection = db['BookCollection']
+user_log = db['UserLog']
+feature_indexing = db['BookFeatureIndexing']
+user_log.drop()
 
 def init_app():
     app = Flask(__name__)

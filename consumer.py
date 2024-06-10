@@ -1,12 +1,11 @@
-from confluent_kafka import Consumer, KafkaException, KafkaError
+from confluent_kafka import Consumer
 import json
 import sys
 from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
 from json.decoder import JSONDecodeError
-from time import sleep
 import processing
-import similarity_matrix
+# import similarity_matrix
+import vectorizer
 import numpy as np
 
 def get_mongo():
@@ -52,7 +51,7 @@ def convert_numpy_types(data):
     else:
         return data
 
-matrix = similarity_matrix.Similarity_Matrix()
+# matrix = similarity_matrix.Similarity_Matrix()
 
 def consume_messages():
     config = read_config()
@@ -74,7 +73,9 @@ def consume_messages():
     client = get_mongo()
     db = client['BookDatabase']
     collection = db['BookCollection']
-    # collection.drop()
+    collection.drop()
+    book_feature = db['BookFeatureIndexing']
+    book_feature.drop()
     print("collection renewed!")
 
     
@@ -104,19 +105,23 @@ def consume_messages():
                 value_dict['FEATURES'] = features
                 print(value_dict['TITLE'])
 
-                similarity_matrix.main(document, matrix)
-                recommended = matrix.similarity_evaluator(test_pid)
-                print(f'Recommend for {test_pid} | {test_title} | {test_auth}: ', recommended)
-                value_dict['RECOMMENDED'] = recommended
+                # Use similarity matrix
+                # similarity_matrix.main(document, matrix)
+                # recommended = matrix.similarity_evaluator(test_pid)
+                # print(f'Recommend for {test_pid} | {test_title} | {test_auth}: ', recommended)
+                # value_dict['RECOMMENDED'] = recommended
                 
                 doc = {
                     'key':key,
                     'value': convert_numpy_types(value_dict)
                 }
-                
+                # insert product
                 collection.insert_one(doc)
                 print("insert {} successfully.".format(doc['key']))
                 
+                # Use dynamic vector indexing
+                # load 1 to vector database
+                vectorizer.load_vector_database(doc, db)
             except JSONDecodeError as e:
                 print(e)
     except KeyboardInterrupt:
