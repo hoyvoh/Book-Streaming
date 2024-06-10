@@ -1,6 +1,4 @@
 import requests
-import time
-import random
 import pandas as pd
 from json.decoder import JSONDecodeError
 import os
@@ -12,7 +10,6 @@ import json
 import os
 import shutil
 import streaming
-import certifi
 
 '''
 from pyspark.sql import SparkSession

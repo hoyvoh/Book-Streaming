@@ -39,11 +39,8 @@
         <div class="back-button">
             <a href="{{ url_for('product.index', page=page-1) }}">Previous</a>
         </div>
-        <div class="back-button">
-
-        </div>
         {% endif %}
-        {% if products|length/40 > 1 %}
+        {% if number_of_products/40 > 1 %}
         <div class="back-button">
             <a href="{{ url_for('product.index', page=page+1) }}">Next</a>
         </div>

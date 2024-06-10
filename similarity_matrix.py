@@ -1,9 +1,6 @@
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-from pymongo import ASCENDING
 import logging
 import atexit
 import random

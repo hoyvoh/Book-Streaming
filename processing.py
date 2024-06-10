@@ -1,11 +1,8 @@
 import unicodedata
 import regex as re
-from pyvi import ViTokenizer, ViPosTagger
+from pyvi import ViTokenizer
 from time import time
 import logistic_regression
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-import pandas as pd
 
 
 '''
