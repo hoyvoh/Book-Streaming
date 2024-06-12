@@ -9,6 +9,12 @@ This is the high-level presentation of the processing flow:
 
 https://drive.google.com/file/d/1D7URvyL28PRY3QJG_dChUlpDF7lQOhjx/view?usp=drive_link
 
+The course reports associated with this project:
+
+[ERP](https://drive.google.com/file/d/1haCMTEdgZPSc6AzD8AlaNa6CsbfmF-qp/view?usp=sharing)
+
+[BigData]()
+
 If you do not have much of time, check this demo video:
 
 [Demo](https://drive.google.com/file/d/1DqAQWNrxSuS-Gn5PxfilrIvVFs26qCQY/view?usp=sharing)
