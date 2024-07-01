@@ -260,7 +260,7 @@ def sales_likeability(row):
     # print(prediction)
     return prediction[0]
 
-from transformers import pipeline, AutoTokenizer
+from transformers import pipeline
 
 distilled_sentiment_classifier = pipeline(
     model= "lxyuan/distilbert-base-multilingual-cased-sentiments-student",
@@ -282,6 +282,8 @@ def positive_probability(row):
             # print(lab[0][0]['label'])
             labs.append(lab[0][0]['label'])
     # print(labs)
+    if len(labs) == 0:
+        return [0,0,0,0]
     pos = labs.count('positive')
     neu = labs.count('neutral')
     neg = labs.count('negative')
@@ -303,9 +305,6 @@ def features_extraction(row):
 '''
 - For each new line(PID, product features) -> pass to similarity matrix to create indexing and update similarity matrix 
 '''
-
-import logging
-import similarity_matrix
 
 def main(new_row=row):
     start = time()

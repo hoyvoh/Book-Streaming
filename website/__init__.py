@@ -1,6 +1,10 @@
 from flask import Flask
 from pymongo import MongoClient
+from glove import GloveBatchTraining
+import os
 
+if not os.path.exists('./static/book_img'):
+    os.makedirs('./static/book_img')
 
 def get_mongo():
     # uri = "mongodb+srv://general_user:MongoUser123@cluster0.nex3ywa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true"
@@ -22,12 +26,15 @@ Run consumer.py: kafka -> pymongo -> similarity matrix -> recommendations
 Run Flask app to display all products being added and for each, a detail page
 '''
 
+glove = GloveBatchTraining()
 client = get_mongo()
 db = client['BookDatabase']
 collection = db['BookCollection']
 user_log = db['UserLog']
+ULw2v = db['ULW2V']
 feature_indexing = db['BookFeatureIndexing']
 user_log.drop()
+ULw2v.drop()
 
 def init_app():
     app = Flask(__name__)
