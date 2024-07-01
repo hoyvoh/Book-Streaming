@@ -44508,3 +44508,870 @@ IndexError: list index out of range
 2024-06-06 18:04:19,861 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 666197b3a6b400fbabcd4f1d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666197b3a6b400fbabcd4f1d"}, "remainingTimeMS": 29}
 2024-06-10 17:11:36,960 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 6666d158a7e57d701e8be588, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6666d158a7e57d701e8be588"}, "remainingTimeMS": 30}
 2024-06-10 17:14:40,989 System shutting down. Cleaning similarity matrix of current session...
+2024-06-25 12:08:53,080 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667a50e576aa47acb443d763, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667a50e576aa47acb443d763"}, "remainingTimeMS": 30}
+2024-06-25 12:11:04,046 System shutting down. Cleaning similarity matrix of current session...
+2024-06-25 12:13:19,506 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667a51ef6817f481a7b3762d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667a51ef6817f481a7b3762d"}, "remainingTimeMS": 30}
+2024-06-25 12:15:51,019 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 11:03:04,607 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667b92f82373cdbe18d30046, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667b92f82373cdbe18d30046"}, "remainingTimeMS": 30}
+2024-06-26 13:25:21,886 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:25:47,709 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb46b28d1121948c084d5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb46b28d1121948c084d5"}, "remainingTimeMS": 30}
+2024-06-26 13:26:12,519 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:30:59,863 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb5a322fd46a7e3605225, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb5a322fd46a7e3605225"}, "remainingTimeMS": 30}
+2024-06-26 13:31:34,560 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:31:58,371 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb5dea11944b4aac1477b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb5dea11944b4aac1477b"}, "remainingTimeMS": 30}
+2024-06-26 13:32:13,970 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:33:12,950 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb62890a1365ca4ffc65c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb62890a1365ca4ffc65c"}, "remainingTimeMS": 30}
+2024-06-26 13:33:54,989 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:35:11,846 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb69fed3f3eb6f658b2b0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb69fed3f3eb6f658b2b0"}, "remainingTimeMS": 30}
+2024-06-26 13:35:25,048 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:37:33,920 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb72d4ece03048b7fb328, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb72d4ece03048b7fb328"}, "remainingTimeMS": 30}
+2024-06-26 13:37:43,537 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:44:07,088 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb8b7d85d36aef7d77c84, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb8b7d85d36aef7d77c84"}, "remainingTimeMS": 30}
+2024-06-26 13:44:14,870 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:48:53,767 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bb9d574289eecca86e9ee, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bb9d574289eecca86e9ee"}, "remainingTimeMS": 30}
+2024-06-26 13:49:04,319 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:49:40,358 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bba04b35d0f9cc2214224, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bba04b35d0f9cc2214224"}, "remainingTimeMS": 30}
+2024-06-26 13:49:52,097 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:51:23,131 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bba6bdd4b81387b4d4cbc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bba6bdd4b81387b4d4cbc"}, "remainingTimeMS": 30}
+2024-06-26 13:51:47,292 System shutting down. Cleaning similarity matrix of current session...
+2024-06-26 13:52:04,764 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667bba943da25d4fdf2adf08, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667bba943da25d4fdf2adf08"}, "remainingTimeMS": 30}
+2024-06-26 18:14:24,024 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 11:55:46,981 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 11:57:43,292 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667cf1479b8a620a9f1f46b4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667cf1479b8a620a9f1f46b4"}, "remainingTimeMS": 30}
+2024-06-27 12:46:35,117 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 12:47:54,057 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 12:50:20,082 collecting all words and their counts
+2024-06-27 12:50:20,082 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:50:20,125 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 12:50:20,125 Creating a fresh vocabulary
+2024-06-27 12:50:20,134 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T12:50:20.126471', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:20,134 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T12:50:20.134356', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:20,136 deleting the raw counts dictionary of 754 items
+2024-06-27 12:50:20,136 sample=0.001 downsamples 57 most-common words
+2024-06-27 12:50:20,136 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T12:50:20.136451', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:20,141 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 12:50:20,142 resetting layer weights
+2024-06-27 12:50:20,142 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T12:50:20.142432', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:50:20,142 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:50:20.142432', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:20,526 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:20,527 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:20,527 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:20,530 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:20,531 EPOCH - 1 : training on 1112597 raw words (350525 effective words) took 0.4s, 906433 effective words/s
+2024-06-27 12:50:20,909 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:20,910 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:20,913 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:20,915 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:20,915 EPOCH - 2 : training on 1112597 raw words (350538 effective words) took 0.4s, 914221 effective words/s
+2024-06-27 12:50:21,279 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:21,281 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:21,284 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:21,286 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:21,286 EPOCH - 3 : training on 1112597 raw words (350827 effective words) took 0.4s, 945741 effective words/s
+2024-06-27 12:50:21,656 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:21,658 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:21,662 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:21,664 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:21,664 EPOCH - 4 : training on 1112597 raw words (350140 effective words) took 0.4s, 929231 effective words/s
+2024-06-27 12:50:22,040 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,040 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,043 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,045 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,045 EPOCH - 5 : training on 1112597 raw words (350424 effective words) took 0.4s, 922447 effective words/s
+2024-06-27 12:50:22,045 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1752454 effective words) took 1.9s, 921255 effective words/s', 'datetime': '2024-06-27T12:50:22.045170', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,045 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T12:50:22.045170', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 12:50:22,045 collecting all words and their counts
+2024-06-27 12:50:22,045 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:50:22,087 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 12:50:22,087 Creating a fresh vocabulary
+2024-06-27 12:50:22,089 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T12:50:22.089168', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,089 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T12:50:22.089168', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,090 deleting the raw counts dictionary of 754 items
+2024-06-27 12:50:22,090 sample=0.001 downsamples 57 most-common words
+2024-06-27 12:50:22,090 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T12:50:22.090165', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,093 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 12:50:22,093 resetting layer weights
+2024-06-27 12:50:22,094 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T12:50:22.094165', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:50:22,094 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:50:22.094165', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,212 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,212 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,213 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,213 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,213 EPOCH - 1 : training on 1112597 raw words (350796 effective words) took 0.1s, 2960519 effective words/s
+2024-06-27 12:50:22,330 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,331 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,331 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,331 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,331 EPOCH - 2 : training on 1112597 raw words (350727 effective words) took 0.1s, 2985703 effective words/s
+2024-06-27 12:50:22,444 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,444 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,444 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,445 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,445 EPOCH - 3 : training on 1112597 raw words (350769 effective words) took 0.1s, 3108431 effective words/s
+2024-06-27 12:50:22,560 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,560 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,560 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,561 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,561 EPOCH - 4 : training on 1112597 raw words (350442 effective words) took 0.1s, 3054616 effective words/s
+2024-06-27 12:50:22,678 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,678 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,678 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,679 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,679 EPOCH - 5 : training on 1112597 raw words (351526 effective words) took 0.1s, 2999668 effective words/s
+2024-06-27 12:50:22,679 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1754260 effective words) took 0.6s, 2998481 effective words/s', 'datetime': '2024-06-27T12:50:22.679430', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,679 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T12:50:22.679430', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 12:50:22,679 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:50:22.679430', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:50:22,681 not storing attribute cum_table
+2024-06-27 12:50:22,682 saved ./model/skipgram_w2v.model
+2024-06-27 12:50:22,682 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:50:22.682425', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:50:22,682 not storing attribute cum_table
+2024-06-27 12:50:22,683 saved ./model/cbow_w2v.model
+2024-06-27 12:50:22,738 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 12:50:22,752 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 12:50:22,753 setting ignored attribute cum_table to None
+2024-06-27 12:50:22,755 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T12:50:22.755490', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:50:22,755 collecting all words and their counts
+2024-06-27 12:50:22,755 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:50:22,755 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 12:50:22,755 Updating model with new vocabulary
+2024-06-27 12:50:22,757 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T12:50:22.757491', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,757 deleting the raw counts dictionary of 99 items
+2024-06-27 12:50:22,757 sample=0.001 downsamples 56 most-common words
+2024-06-27 12:50:22,757 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T12:50:22.757491', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,760 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 12:50:22,760 updating layer weights
+2024-06-27 12:50:22,760 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T12:50:22.760530', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:50:22,760 Effective 'alpha' higher than previous training cycles
+2024-06-27 12:50:22,760 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:50:22.760530', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,762 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,762 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,762 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,763 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,763 EPOCH - 1 : training on 1652 raw words (512 effective words) took 0.0s, 256167 effective words/s
+2024-06-27 12:50:22,763 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (512 effective words) took 0.0s, 166710 effective words/s', 'datetime': '2024-06-27T12:50:22.763508', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,763 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:50:22.763508', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:50:22,764 not storing attribute cum_table
+2024-06-27 12:50:22,765 saved ./model/skipgram_w2v.model
+2024-06-27 12:50:22,765 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 12:50:22,778 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 12:50:22,779 setting ignored attribute cum_table to None
+2024-06-27 12:50:22,781 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T12:50:22.781503', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:50:22,781 collecting all words and their counts
+2024-06-27 12:50:22,781 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:50:22,782 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 12:50:22,782 Updating model with new vocabulary
+2024-06-27 12:50:22,783 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T12:50:22.783500', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,783 deleting the raw counts dictionary of 99 items
+2024-06-27 12:50:22,783 sample=0.001 downsamples 56 most-common words
+2024-06-27 12:50:22,783 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T12:50:22.783500', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:50:22,786 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 12:50:22,786 updating layer weights
+2024-06-27 12:50:22,786 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T12:50:22.786513', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:50:22,786 Effective 'alpha' higher than previous training cycles
+2024-06-27 12:50:22,786 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:50:22.786513', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,788 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:50:22,788 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:50:22,788 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:50:22,788 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:50:22,788 EPOCH - 1 : training on 1652 raw words (492 effective words) took 0.0s, 512607 effective words/s
+2024-06-27 12:50:22,788 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (492 effective words) took 0.0s, 264872 effective words/s', 'datetime': '2024-06-27T12:50:22.788459', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:50:22,788 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:50:22.788459', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:50:22,788 not storing attribute cum_table
+2024-06-27 12:50:22,789 saved ./model/cbow_w2v.model
+2024-06-27 12:50:22,789 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 12:50:22,793 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 12:50:22,793 setting ignored attribute cum_table to None
+2024-06-27 12:50:22,796 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T12:50:22.796372', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:50:22,796 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 12:50:22,801 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 12:50:22,801 setting ignored attribute cum_table to None
+2024-06-27 12:50:22,803 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T12:50:22.803502', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:50:22,810 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 12:51:43,865 collecting all words and their counts
+2024-06-27 12:51:43,865 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:51:43,908 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 12:51:43,908 Creating a fresh vocabulary
+2024-06-27 12:51:43,918 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T12:51:43.910975', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:43,918 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T12:51:43.918982', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:43,920 deleting the raw counts dictionary of 754 items
+2024-06-27 12:51:43,920 sample=0.001 downsamples 57 most-common words
+2024-06-27 12:51:43,920 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T12:51:43.920979', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:43,923 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 12:51:43,923 resetting layer weights
+2024-06-27 12:51:43,923 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T12:51:43.923871', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:51:43,924 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:51:43.923871', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:44,300 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:44,301 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:44,305 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:44,307 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:44,307 EPOCH - 1 : training on 1112597 raw words (350980 effective words) took 0.4s, 919049 effective words/s
+2024-06-27 12:51:44,669 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:44,671 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:44,675 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:44,677 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:44,677 EPOCH - 2 : training on 1112597 raw words (349710 effective words) took 0.4s, 947466 effective words/s
+2024-06-27 12:51:45,047 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:45,047 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:45,049 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:45,051 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:45,051 EPOCH - 3 : training on 1112597 raw words (350220 effective words) took 0.4s, 938567 effective words/s
+2024-06-27 12:51:45,413 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:45,415 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:45,418 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:45,421 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:45,421 EPOCH - 4 : training on 1112597 raw words (350518 effective words) took 0.4s, 950227 effective words/s
+2024-06-27 12:51:45,790 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:45,794 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:45,797 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:45,798 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:45,798 EPOCH - 5 : training on 1112597 raw words (349898 effective words) took 0.4s, 930531 effective words/s
+2024-06-27 12:51:45,798 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1751326 effective words) took 1.9s, 934711 effective words/s', 'datetime': '2024-06-27T12:51:45.798028', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:45,798 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T12:51:45.798028', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 12:51:45,798 collecting all words and their counts
+2024-06-27 12:51:45,798 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:51:45,841 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 12:51:45,841 Creating a fresh vocabulary
+2024-06-27 12:51:45,842 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T12:51:45.842029', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:45,842 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T12:51:45.842029', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:45,844 deleting the raw counts dictionary of 754 items
+2024-06-27 12:51:45,844 sample=0.001 downsamples 57 most-common words
+2024-06-27 12:51:45,844 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T12:51:45.844024', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:45,847 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 12:51:45,847 resetting layer weights
+2024-06-27 12:51:45,847 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T12:51:45.847029', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:51:45,847 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:51:45.847029', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:45,964 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:45,964 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:45,964 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:45,965 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:45,965 EPOCH - 1 : training on 1112597 raw words (350279 effective words) took 0.1s, 2995755 effective words/s
+2024-06-27 12:51:46,080 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:46,080 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:46,080 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:46,081 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:46,081 EPOCH - 2 : training on 1112597 raw words (350111 effective words) took 0.1s, 3030125 effective words/s
+2024-06-27 12:51:46,195 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:46,195 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:46,195 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:46,196 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:46,196 EPOCH - 3 : training on 1112597 raw words (349960 effective words) took 0.1s, 3071897 effective words/s
+2024-06-27 12:51:46,306 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:46,306 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:46,307 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:46,307 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:46,307 EPOCH - 4 : training on 1112597 raw words (350270 effective words) took 0.1s, 3169598 effective words/s
+2024-06-27 12:51:46,417 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:46,417 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:46,417 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:46,418 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:46,418 EPOCH - 5 : training on 1112597 raw words (349478 effective words) took 0.1s, 3188194 effective words/s
+2024-06-27 12:51:46,418 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1750098 effective words) took 0.6s, 3063820 effective words/s', 'datetime': '2024-06-27T12:51:46.418979', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:46,418 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T12:51:46.418979', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 12:51:46,418 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:51:46.418979', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:51:46,418 not storing attribute cum_table
+2024-06-27 12:51:46,419 saved ./model/skipgram_w2v.model
+2024-06-27 12:51:46,419 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:51:46.419936', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:51:46,419 not storing attribute cum_table
+2024-06-27 12:51:46,420 saved ./model/cbow_w2v.model
+2024-06-27 12:51:46,477 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 12:51:46,488 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 12:51:46,488 setting ignored attribute cum_table to None
+2024-06-27 12:51:46,491 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T12:51:46.491880', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:51:46,491 collecting all words and their counts
+2024-06-27 12:51:46,491 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:51:46,491 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 12:51:46,491 Updating model with new vocabulary
+2024-06-27 12:51:46,492 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T12:51:46.492869', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:46,493 deleting the raw counts dictionary of 99 items
+2024-06-27 12:51:46,493 sample=0.001 downsamples 56 most-common words
+2024-06-27 12:51:46,493 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T12:51:46.493904', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:46,496 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 12:51:46,496 updating layer weights
+2024-06-27 12:51:46,496 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T12:51:46.496870', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:51:46,496 Effective 'alpha' higher than previous training cycles
+2024-06-27 12:51:46,496 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:51:46.496870', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:46,498 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:46,498 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:46,498 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:46,499 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:46,499 EPOCH - 1 : training on 1652 raw words (529 effective words) took 0.0s, 326846 effective words/s
+2024-06-27 12:51:46,499 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (529 effective words) took 0.0s, 170766 effective words/s', 'datetime': '2024-06-27T12:51:46.499866', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:46,499 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:51:46.499866', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:51:46,500 not storing attribute cum_table
+2024-06-27 12:51:46,501 saved ./model/skipgram_w2v.model
+2024-06-27 12:51:46,501 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 12:51:46,512 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 12:51:46,512 setting ignored attribute cum_table to None
+2024-06-27 12:51:46,515 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T12:51:46.515891', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:51:46,515 collecting all words and their counts
+2024-06-27 12:51:46,515 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:51:46,515 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 12:51:46,515 Updating model with new vocabulary
+2024-06-27 12:51:46,517 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T12:51:46.517909', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:46,517 deleting the raw counts dictionary of 99 items
+2024-06-27 12:51:46,517 sample=0.001 downsamples 56 most-common words
+2024-06-27 12:51:46,517 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T12:51:46.517909', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:51:46,520 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 12:51:46,520 updating layer weights
+2024-06-27 12:51:46,520 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T12:51:46.520869', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:51:46,520 Effective 'alpha' higher than previous training cycles
+2024-06-27 12:51:46,520 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:51:46.520869', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:46,522 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:51:46,523 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:51:46,523 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:51:46,523 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:51:46,523 EPOCH - 1 : training on 1652 raw words (515 effective words) took 0.0s, 1168860 effective words/s
+2024-06-27 12:51:46,523 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (515 effective words) took 0.0s, 204796 effective words/s', 'datetime': '2024-06-27T12:51:46.523869', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:51:46,523 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:51:46.523869', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:51:46,523 not storing attribute cum_table
+2024-06-27 12:51:46,524 saved ./model/cbow_w2v.model
+2024-06-27 12:51:46,524 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 12:51:46,530 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 12:51:46,530 setting ignored attribute cum_table to None
+2024-06-27 12:51:46,533 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T12:51:46.533962', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:51:46,533 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 12:51:46,541 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 12:51:46,541 setting ignored attribute cum_table to None
+2024-06-27 12:51:46,544 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T12:51:46.544968', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:51:46,549 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 12:54:01,882 collecting all words and their counts
+2024-06-27 12:54:01,882 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:54:01,925 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 12:54:01,925 Creating a fresh vocabulary
+2024-06-27 12:54:01,934 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T12:54:01.927284', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:01,934 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T12:54:01.934225', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:01,936 deleting the raw counts dictionary of 754 items
+2024-06-27 12:54:01,936 sample=0.001 downsamples 57 most-common words
+2024-06-27 12:54:01,936 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T12:54:01.936321', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:01,939 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 12:54:01,939 resetting layer weights
+2024-06-27 12:54:01,940 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T12:54:01.940332', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:54:01,940 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:54:01.940332', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:02,312 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:02,314 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:02,318 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:02,320 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:02,320 EPOCH - 1 : training on 1112597 raw words (350898 effective words) took 0.4s, 925621 effective words/s
+2024-06-27 12:54:02,690 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:02,690 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:02,695 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:02,697 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:02,697 EPOCH - 2 : training on 1112597 raw words (350529 effective words) took 0.4s, 933054 effective words/s
+2024-06-27 12:54:03,067 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:03,069 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:03,071 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:03,072 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:03,072 EPOCH - 3 : training on 1112597 raw words (350544 effective words) took 0.4s, 936883 effective words/s
+2024-06-27 12:54:03,443 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:03,446 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:03,451 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:03,452 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:03,452 EPOCH - 4 : training on 1112597 raw words (350614 effective words) took 0.4s, 924385 effective words/s
+2024-06-27 12:54:03,821 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:03,822 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:03,826 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:03,828 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:03,828 EPOCH - 5 : training on 1112597 raw words (350329 effective words) took 0.4s, 932167 effective words/s
+2024-06-27 12:54:03,828 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1752914 effective words) took 1.9s, 927944 effective words/s', 'datetime': '2024-06-27T12:54:03.828989', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:03,828 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T12:54:03.828989', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 12:54:03,828 collecting all words and their counts
+2024-06-27 12:54:03,828 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:54:03,873 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 12:54:03,873 Creating a fresh vocabulary
+2024-06-27 12:54:03,874 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T12:54:03.874998', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:03,875 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T12:54:03.875971', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:03,876 deleting the raw counts dictionary of 754 items
+2024-06-27 12:54:03,876 sample=0.001 downsamples 57 most-common words
+2024-06-27 12:54:03,876 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T12:54:03.876988', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:03,879 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 12:54:03,879 resetting layer weights
+2024-06-27 12:54:03,880 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T12:54:03.880988', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:54:03,880 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:54:03.880988', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:03,993 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:03,993 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:03,993 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:03,993 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:03,993 EPOCH - 1 : training on 1112597 raw words (350564 effective words) took 0.1s, 3104949 effective words/s
+2024-06-27 12:54:04,111 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:04,112 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:04,112 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:04,112 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:04,112 EPOCH - 2 : training on 1112597 raw words (350020 effective words) took 0.1s, 2986455 effective words/s
+2024-06-27 12:54:04,226 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:04,227 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:04,227 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:04,228 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:04,228 EPOCH - 3 : training on 1112597 raw words (350898 effective words) took 0.1s, 3064828 effective words/s
+2024-06-27 12:54:04,342 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:04,342 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:04,343 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:04,343 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:04,343 EPOCH - 4 : training on 1112597 raw words (350826 effective words) took 0.1s, 3049327 effective words/s
+2024-06-27 12:54:04,457 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:04,457 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:04,458 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:04,458 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:04,458 EPOCH - 5 : training on 1112597 raw words (351044 effective words) took 0.1s, 3074619 effective words/s
+2024-06-27 12:54:04,458 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1753352 effective words) took 0.6s, 3035052 effective words/s', 'datetime': '2024-06-27T12:54:04.458230', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:04,458 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T12:54:04.458230', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 12:54:04,458 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:54:04.458230', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:54:04,458 not storing attribute cum_table
+2024-06-27 12:54:04,460 saved ./model/skipgram_w2v.model
+2024-06-27 12:54:04,460 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:54:04.460235', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:54:04,460 not storing attribute cum_table
+2024-06-27 12:54:04,460 saved ./model/cbow_w2v.model
+2024-06-27 12:54:04,517 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 12:54:04,524 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 12:54:04,524 setting ignored attribute cum_table to None
+2024-06-27 12:54:04,528 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T12:54:04.528063', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:54:04,528 collecting all words and their counts
+2024-06-27 12:54:04,528 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:54:04,528 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 12:54:04,528 Updating model with new vocabulary
+2024-06-27 12:54:04,529 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T12:54:04.529061', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:04,530 deleting the raw counts dictionary of 99 items
+2024-06-27 12:54:04,530 sample=0.001 downsamples 56 most-common words
+2024-06-27 12:54:04,530 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T12:54:04.530008', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:04,532 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 12:54:04,532 updating layer weights
+2024-06-27 12:54:04,532 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T12:54:04.532996', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:54:04,532 Effective 'alpha' higher than previous training cycles
+2024-06-27 12:54:04,532 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:54:04.532996', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:04,535 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:04,536 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:04,536 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:04,537 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:04,537 EPOCH - 1 : training on 1652 raw words (494 effective words) took 0.0s, 306091 effective words/s
+2024-06-27 12:54:04,537 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (494 effective words) took 0.0s, 141649 effective words/s', 'datetime': '2024-06-27T12:54:04.537058', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:04,537 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:54:04.537058', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:54:04,537 not storing attribute cum_table
+2024-06-27 12:54:04,538 saved ./model/skipgram_w2v.model
+2024-06-27 12:54:04,538 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 12:54:04,552 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 12:54:04,552 setting ignored attribute cum_table to None
+2024-06-27 12:54:04,555 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T12:54:04.555056', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:54:04,555 collecting all words and their counts
+2024-06-27 12:54:04,555 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 12:54:04,556 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 12:54:04,556 Updating model with new vocabulary
+2024-06-27 12:54:04,557 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T12:54:04.557056', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:04,557 deleting the raw counts dictionary of 99 items
+2024-06-27 12:54:04,557 sample=0.001 downsamples 56 most-common words
+2024-06-27 12:54:04,557 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T12:54:04.557056', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 12:54:04,560 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 12:54:04,560 updating layer weights
+2024-06-27 12:54:04,560 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T12:54:04.560056', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 12:54:04,560 Effective 'alpha' higher than previous training cycles
+2024-06-27 12:54:04,560 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T12:54:04.560056', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:04,562 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 12:54:04,562 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 12:54:04,562 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 12:54:04,562 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 12:54:04,563 EPOCH - 1 : training on 1652 raw words (540 effective words) took 0.0s, 590681 effective words/s
+2024-06-27 12:54:04,563 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (540 effective words) took 0.0s, 227368 effective words/s', 'datetime': '2024-06-27T12:54:04.563377', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 12:54:04,563 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T12:54:04.563377', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 12:54:04,563 not storing attribute cum_table
+2024-06-27 12:54:04,564 saved ./model/cbow_w2v.model
+2024-06-27 12:54:04,564 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 12:54:04,573 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 12:54:04,573 setting ignored attribute cum_table to None
+2024-06-27 12:54:04,576 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T12:54:04.576477', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:54:04,576 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 12:54:04,587 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 12:54:04,587 setting ignored attribute cum_table to None
+2024-06-27 12:54:04,590 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T12:54:04.590981', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 12:54:04,639 System shutting down. Cleaning similarity matrix of current session...
+2024-06-27 14:32:39,517 collecting all words and their counts
+2024-06-27 14:32:39,519 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 14:32:39,563 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 14:32:39,563 Creating a fresh vocabulary
+2024-06-27 14:32:39,582 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T14:32:39.564526', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:39,582 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T14:32:39.582587', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:39,584 deleting the raw counts dictionary of 754 items
+2024-06-27 14:32:39,584 sample=0.001 downsamples 57 most-common words
+2024-06-27 14:32:39,584 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T14:32:39.584583', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:39,588 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 14:32:39,588 resetting layer weights
+2024-06-27 14:32:39,589 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T14:32:39.589584', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 14:32:39,589 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T14:32:39.589584', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:39,972 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:39,973 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:39,977 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:39,978 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:39,978 EPOCH - 1 : training on 1112597 raw words (350525 effective words) took 0.4s, 908557 effective words/s
+2024-06-27 14:32:40,352 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:40,355 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:40,359 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:40,360 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:40,360 EPOCH - 2 : training on 1112597 raw words (351096 effective words) took 0.4s, 922080 effective words/s
+2024-06-27 14:32:40,729 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:40,732 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:40,736 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:40,738 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:40,738 EPOCH - 3 : training on 1112597 raw words (349806 effective words) took 0.4s, 928460 effective words/s
+2024-06-27 14:32:41,109 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:41,110 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:41,110 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:41,113 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:41,113 EPOCH - 4 : training on 1112597 raw words (350661 effective words) took 0.4s, 940726 effective words/s
+2024-06-27 14:32:41,488 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:41,492 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:41,496 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:41,497 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:41,497 EPOCH - 5 : training on 1112597 raw words (350495 effective words) took 0.4s, 916773 effective words/s
+2024-06-27 14:32:41,497 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1752583 effective words) took 1.9s, 918279 effective words/s', 'datetime': '2024-06-27T14:32:41.497545', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:41,497 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T14:32:41.497545', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 14:32:41,498 collecting all words and their counts
+2024-06-27 14:32:41,498 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 14:32:41,541 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-27 14:32:41,541 Creating a fresh vocabulary
+2024-06-27 14:32:41,542 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-27T14:32:41.542519', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:41,542 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-27T14:32:41.542519', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:41,544 deleting the raw counts dictionary of 754 items
+2024-06-27 14:32:41,544 sample=0.001 downsamples 57 most-common words
+2024-06-27 14:32:41,544 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-27T14:32:41.544519', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:41,547 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-27 14:32:41,547 resetting layer weights
+2024-06-27 14:32:41,547 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-27T14:32:41.547518', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 14:32:41,547 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T14:32:41.547518', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:41,668 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:41,668 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:41,668 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:41,669 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:41,669 EPOCH - 1 : training on 1112597 raw words (350296 effective words) took 0.1s, 2913837 effective words/s
+2024-06-27 14:32:41,784 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:41,784 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:41,785 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:41,785 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:41,785 EPOCH - 2 : training on 1112597 raw words (350726 effective words) took 0.1s, 3039829 effective words/s
+2024-06-27 14:32:41,900 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:41,901 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:41,901 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:41,902 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:41,902 EPOCH - 3 : training on 1112597 raw words (350986 effective words) took 0.1s, 3038524 effective words/s
+2024-06-27 14:32:42,017 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:42,017 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:42,017 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:42,018 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:42,018 EPOCH - 4 : training on 1112597 raw words (350768 effective words) took 0.1s, 3046056 effective words/s
+2024-06-27 14:32:42,143 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:42,143 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:42,144 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:42,144 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:42,144 EPOCH - 5 : training on 1112597 raw words (350136 effective words) took 0.1s, 2818316 effective words/s
+2024-06-27 14:32:42,144 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1752912 effective words) took 0.6s, 2935300 effective words/s', 'datetime': '2024-06-27T14:32:42.144718', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:42,144 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-27T14:32:42.144718', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-27 14:32:42,145 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T14:32:42.145714', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 14:32:42,147 not storing attribute cum_table
+2024-06-27 14:32:42,148 saved ./model/skipgram_w2v.model
+2024-06-27 14:32:42,148 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T14:32:42.148716', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 14:32:42,148 not storing attribute cum_table
+2024-06-27 14:32:42,149 saved ./model/cbow_w2v.model
+2024-06-27 14:32:42,212 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 14:32:42,217 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 14:32:42,217 setting ignored attribute cum_table to None
+2024-06-27 14:32:42,220 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T14:32:42.220748', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 14:32:42,220 collecting all words and their counts
+2024-06-27 14:32:42,220 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 14:32:42,220 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 14:32:42,220 Updating model with new vocabulary
+2024-06-27 14:32:42,221 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T14:32:42.221734', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:42,222 deleting the raw counts dictionary of 99 items
+2024-06-27 14:32:42,222 sample=0.001 downsamples 56 most-common words
+2024-06-27 14:32:42,222 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T14:32:42.222714', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:42,225 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 14:32:42,225 updating layer weights
+2024-06-27 14:32:42,225 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T14:32:42.225715', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 14:32:42,225 Effective 'alpha' higher than previous training cycles
+2024-06-27 14:32:42,225 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T14:32:42.225715', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:42,227 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:42,228 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:42,228 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:42,228 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:42,228 EPOCH - 1 : training on 1652 raw words (541 effective words) took 0.0s, 405760 effective words/s
+2024-06-27 14:32:42,228 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (541 effective words) took 0.0s, 188535 effective words/s', 'datetime': '2024-06-27T14:32:42.228739', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:42,228 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T14:32:42.228739', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 14:32:42,228 not storing attribute cum_table
+2024-06-27 14:32:42,229 saved ./model/skipgram_w2v.model
+2024-06-27 14:32:42,230 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 14:32:42,237 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 14:32:42,238 setting ignored attribute cum_table to None
+2024-06-27 14:32:42,241 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T14:32:42.241738', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 14:32:42,241 collecting all words and their counts
+2024-06-27 14:32:42,241 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-27 14:32:42,241 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-27 14:32:42,241 Updating model with new vocabulary
+2024-06-27 14:32:42,242 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-27T14:32:42.242732', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:42,242 deleting the raw counts dictionary of 99 items
+2024-06-27 14:32:42,242 sample=0.001 downsamples 56 most-common words
+2024-06-27 14:32:42,242 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-27T14:32:42.242732', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-27 14:32:42,245 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-27 14:32:42,245 updating layer weights
+2024-06-27 14:32:42,245 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-27T14:32:42.245732', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-27 14:32:42,245 Effective 'alpha' higher than previous training cycles
+2024-06-27 14:32:42,245 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-27T14:32:42.245732', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:42,248 worker thread finished; awaiting finish of 3 more threads
+2024-06-27 14:32:42,248 worker thread finished; awaiting finish of 2 more threads
+2024-06-27 14:32:42,248 worker thread finished; awaiting finish of 1 more threads
+2024-06-27 14:32:42,248 worker thread finished; awaiting finish of 0 more threads
+2024-06-27 14:32:42,248 EPOCH - 1 : training on 1652 raw words (519 effective words) took 0.0s, 1395161 effective words/s
+2024-06-27 14:32:42,249 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (519 effective words) took 0.0s, 161551 effective words/s', 'datetime': '2024-06-27T14:32:42.249721', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-27 14:32:42,249 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-27T14:32:42.249721', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-27 14:32:42,249 not storing attribute cum_table
+2024-06-27 14:32:42,250 saved ./model/cbow_w2v.model
+2024-06-27 14:32:42,250 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-27 14:32:42,263 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-27 14:32:42,263 setting ignored attribute cum_table to None
+2024-06-27 14:32:42,266 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-27T14:32:42.266730', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 14:32:42,266 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-27 14:32:42,289 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-27 14:32:42,289 setting ignored attribute cum_table to None
+2024-06-27 14:32:42,293 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-27T14:32:42.293825', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-27 14:32:42,307 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 09:34:38,906 collecting all words and their counts
+2024-06-28 09:34:38,908 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-28 09:34:38,955 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-28 09:34:38,955 Creating a fresh vocabulary
+2024-06-28 09:34:38,968 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-28T09:34:38.956645', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:38,969 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-28T09:34:38.969620', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:38,970 deleting the raw counts dictionary of 754 items
+2024-06-28 09:34:38,978 sample=0.001 downsamples 57 most-common words
+2024-06-28 09:34:38,978 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-28T09:34:38.978740', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:38,981 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-28 09:34:38,981 resetting layer weights
+2024-06-28 09:34:38,982 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-28T09:34:38.982735', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-28 09:34:38,982 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-28T09:34:38.982735', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:39,353 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:39,354 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:39,359 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:39,361 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:39,361 EPOCH - 1 : training on 1112597 raw words (350441 effective words) took 0.4s, 930963 effective words/s
+2024-06-28 09:34:39,733 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:39,734 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:39,736 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:39,739 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:39,739 EPOCH - 2 : training on 1112597 raw words (350033 effective words) took 0.4s, 926037 effective words/s
+2024-06-28 09:34:40,112 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:40,115 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:40,117 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:40,119 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:40,119 EPOCH - 3 : training on 1112597 raw words (350086 effective words) took 0.4s, 925740 effective words/s
+2024-06-28 09:34:40,486 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:40,486 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:40,489 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:40,491 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:40,491 EPOCH - 4 : training on 1112597 raw words (350324 effective words) took 0.4s, 943724 effective words/s
+2024-06-28 09:34:40,861 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:40,863 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:40,867 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:40,868 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:40,869 EPOCH - 5 : training on 1112597 raw words (350671 effective words) took 0.4s, 931078 effective words/s
+2024-06-28 09:34:40,869 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1751555 effective words) took 1.9s, 928507 effective words/s', 'datetime': '2024-06-28T09:34:40.869381', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:40,869 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-28T09:34:40.869381', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-28 09:34:40,869 collecting all words and their counts
+2024-06-28 09:34:40,869 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-28 09:34:40,913 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-28 09:34:40,913 Creating a fresh vocabulary
+2024-06-28 09:34:40,915 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-28T09:34:40.915450', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:40,915 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-28T09:34:40.915450', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:40,917 deleting the raw counts dictionary of 754 items
+2024-06-28 09:34:40,917 sample=0.001 downsamples 57 most-common words
+2024-06-28 09:34:40,917 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-28T09:34:40.917429', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:40,920 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-28 09:34:40,920 resetting layer weights
+2024-06-28 09:34:40,920 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-28T09:34:40.920435', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-28 09:34:40,920 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-28T09:34:40.920435', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,036 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,037 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,037 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,037 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,037 EPOCH - 1 : training on 1112597 raw words (350102 effective words) took 0.1s, 3031178 effective words/s
+2024-06-28 09:34:41,148 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,149 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,149 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,150 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,150 EPOCH - 2 : training on 1112597 raw words (351700 effective words) took 0.1s, 3139738 effective words/s
+2024-06-28 09:34:41,261 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,261 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,261 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,262 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,262 EPOCH - 3 : training on 1112597 raw words (350664 effective words) took 0.1s, 3148464 effective words/s
+2024-06-28 09:34:41,372 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,372 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,372 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,373 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,373 EPOCH - 4 : training on 1112597 raw words (350342 effective words) took 0.1s, 3171133 effective words/s
+2024-06-28 09:34:41,482 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,483 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,483 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,484 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,484 EPOCH - 5 : training on 1112597 raw words (350437 effective words) took 0.1s, 3200151 effective words/s
+2024-06-28 09:34:41,484 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1753245 effective words) took 0.6s, 3110819 effective words/s', 'datetime': '2024-06-28T09:34:41.484344', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,484 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-28T09:34:41.484344', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-28 09:34:41,484 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-28T09:34:41.484344', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-28 09:34:41,486 not storing attribute cum_table
+2024-06-28 09:34:41,487 saved ./model/skipgram_w2v.model
+2024-06-28 09:34:41,487 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-28T09:34:41.487351', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-28 09:34:41,487 not storing attribute cum_table
+2024-06-28 09:34:41,488 saved ./model/cbow_w2v.model
+2024-06-28 09:34:41,534 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-28 09:34:41,547 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-28 09:34:41,547 setting ignored attribute cum_table to None
+2024-06-28 09:34:41,550 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-28T09:34:41.550355', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 09:34:41,550 collecting all words and their counts
+2024-06-28 09:34:41,550 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-28 09:34:41,550 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-28 09:34:41,550 Updating model with new vocabulary
+2024-06-28 09:34:41,552 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-28T09:34:41.552352', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,552 deleting the raw counts dictionary of 99 items
+2024-06-28 09:34:41,552 sample=0.001 downsamples 56 most-common words
+2024-06-28 09:34:41,553 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-28T09:34:41.553408', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,555 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-28 09:34:41,555 updating layer weights
+2024-06-28 09:34:41,556 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-28T09:34:41.556397', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-28 09:34:41,556 Effective 'alpha' higher than previous training cycles
+2024-06-28 09:34:41,556 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-28T09:34:41.556397', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,557 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,557 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,557 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,558 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,558 EPOCH - 1 : training on 1652 raw words (510 effective words) took 0.0s, 307692 effective words/s
+2024-06-28 09:34:41,558 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (510 effective words) took 0.0s, 197246 effective words/s', 'datetime': '2024-06-28T09:34:41.558401', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,558 Word2Vec lifecycle event {'fname_or_handle': './model/skipgram_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-28T09:34:41.558401', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-28 09:34:41,558 not storing attribute cum_table
+2024-06-28 09:34:41,559 saved ./model/skipgram_w2v.model
+2024-06-28 09:34:41,559 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-28 09:34:41,571 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-28 09:34:41,571 setting ignored attribute cum_table to None
+2024-06-28 09:34:41,575 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-28T09:34:41.575400', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 09:34:41,575 collecting all words and their counts
+2024-06-28 09:34:41,575 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-28 09:34:41,575 collected 99 word types from a corpus of 1652 raw words and 1 sentences
+2024-06-28 09:34:41,575 Updating model with new vocabulary
+2024-06-28 09:34:41,576 Word2Vec lifecycle event {'msg': 'added 0 new unique words (0.0%% of original 99) and increased the count of 99 pre-existing words (100.0%% of original 99)', 'datetime': '2024-06-28T09:34:41.576440', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,576 deleting the raw counts dictionary of 99 items
+2024-06-28 09:34:41,576 sample=0.001 downsamples 56 most-common words
+2024-06-28 09:34:41,576 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 512.5998101083148 word corpus (31.0%% of prior 1652)', 'datetime': '2024-06-28T09:34:41.576440', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,579 estimated required memory for 99 words and 100 dimensions: 128700 bytes
+2024-06-28 09:34:41,579 updating layer weights
+2024-06-28 09:34:41,579 Word2Vec lifecycle event {'update': True, 'trim_rule': 'None', 'datetime': '2024-06-28T09:34:41.579454', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-28 09:34:41,579 Effective 'alpha' higher than previous training cycles
+2024-06-28 09:34:41,579 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-28T09:34:41.579454', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,581 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,581 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,581 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,581 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,581 EPOCH - 1 : training on 1652 raw words (501 effective words) took 0.0s, 506419 effective words/s
+2024-06-28 09:34:41,581 Word2Vec lifecycle event {'msg': 'training on 1652 raw words (501 effective words) took 0.0s, 239095 effective words/s', 'datetime': '2024-06-28T09:34:41.581395', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,582 Word2Vec lifecycle event {'fname_or_handle': './model/cbow_w2v.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-28T09:34:41.582384', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-28 09:34:41,582 not storing attribute cum_table
+2024-06-28 09:34:41,583 saved ./model/cbow_w2v.model
+2024-06-28 09:34:41,583 loading Word2Vec object from ./model/skipgram_w2v.model
+2024-06-28 09:34:41,587 loading wv recursively from ./model/skipgram_w2v.model.wv.* with mmap=None
+2024-06-28 09:34:41,587 setting ignored attribute cum_table to None
+2024-06-28 09:34:41,590 Word2Vec lifecycle event {'fname': './model/skipgram_w2v.model', 'datetime': '2024-06-28T09:34:41.590445', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 09:34:41,590 loading Word2Vec object from ./model/cbow_w2v.model
+2024-06-28 09:34:41,602 loading wv recursively from ./model/cbow_w2v.model.wv.* with mmap=None
+2024-06-28 09:34:41,602 setting ignored attribute cum_table to None
+2024-06-28 09:34:41,604 Word2Vec lifecycle event {'fname': './model/cbow_w2v.model', 'datetime': '2024-06-28T09:34:41.604498', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 09:34:41,609 collecting all words and their counts
+2024-06-28 09:34:41,609 PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2024-06-28 09:34:41,654 collected 754 word types from a corpus of 1112597 raw words and 570 sentences
+2024-06-28 09:34:41,654 Creating a fresh vocabulary
+2024-06-28 09:34:41,655 Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 754 unique words (100.0%% of original 754, drops 0)', 'datetime': '2024-06-28T09:34:41.655430', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,656 Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1112597 word corpus (100.0%% of original 1112597, drops 0)', 'datetime': '2024-06-28T09:34:41.656466', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,658 deleting the raw counts dictionary of 754 items
+2024-06-28 09:34:41,658 sample=0.001 downsamples 57 most-common words
+2024-06-28 09:34:41,658 Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 350361.62044857553 word corpus (31.5%% of prior 1112597)', 'datetime': '2024-06-28T09:34:41.658457', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2024-06-28 09:34:41,661 estimated required memory for 754 words and 100 dimensions: 980200 bytes
+2024-06-28 09:34:41,661 resetting layer weights
+2024-06-28 09:34:41,662 Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2024-06-28T09:34:41.662475', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2024-06-28 09:34:41,662 Word2Vec lifecycle event {'msg': 'training model with 4 workers on 754 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2024-06-28T09:34:41.662475', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:41,776 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,776 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,776 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,777 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,777 EPOCH - 1 : training on 1112597 raw words (351012 effective words) took 0.1s, 3121300 effective words/s
+2024-06-28 09:34:41,888 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:41,888 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:41,888 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:41,889 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:41,889 EPOCH - 2 : training on 1112597 raw words (349959 effective words) took 0.1s, 3175476 effective words/s
+2024-06-28 09:34:42,003 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:42,003 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:42,003 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:42,004 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:42,004 EPOCH - 3 : training on 1112597 raw words (349945 effective words) took 0.1s, 3078984 effective words/s
+2024-06-28 09:34:42,116 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:42,116 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:42,117 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:42,117 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:42,117 EPOCH - 4 : training on 1112597 raw words (350686 effective words) took 0.1s, 3114526 effective words/s
+2024-06-28 09:34:42,226 worker thread finished; awaiting finish of 3 more threads
+2024-06-28 09:34:42,226 worker thread finished; awaiting finish of 2 more threads
+2024-06-28 09:34:42,226 worker thread finished; awaiting finish of 1 more threads
+2024-06-28 09:34:42,227 worker thread finished; awaiting finish of 0 more threads
+2024-06-28 09:34:42,227 EPOCH - 5 : training on 1112597 raw words (350775 effective words) took 0.1s, 3201153 effective words/s
+2024-06-28 09:34:42,227 Word2Vec lifecycle event {'msg': 'training on 5562985 raw words (1752377 effective words) took 0.6s, 3098831 effective words/s', 'datetime': '2024-06-28T09:34:42.227612', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2024-06-28 09:34:42,227 Word2Vec lifecycle event {'params': 'Word2Vec(vocab=754, vector_size=100, alpha=0.025)', 'datetime': '2024-06-28T09:34:42.227612', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2024-06-28 09:34:42,227 Word2Vec lifecycle event {'fname_or_handle': './model/glove_embedding.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2024-06-28T09:34:42.227612', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2024-06-28 09:34:42,227 not storing attribute cum_table
+2024-06-28 09:34:42,230 saved ./model/glove_embedding.model
+2024-06-28 09:34:42,674 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:45:17,812 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-28 10:45:17,813 [33mPress CTRL+C to quit[0m
+2024-06-28 10:45:17,814  * Restarting with stat
+2024-06-28 10:45:51,079 loading Word2Vec object from ./model/glove_embedding.model
+2024-06-28 10:45:51,089 loading wv recursively from ./model/glove_embedding.model.wv.* with mmap=None
+2024-06-28 10:45:51,089 setting ignored attribute cum_table to None
+2024-06-28 10:45:51,101 Word2Vec lifecycle event {'fname': './model/glove_embedding.model', 'datetime': '2024-06-28T10:45:51.093551', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 10:45:51,104 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667e31ef94bac9fe6443f382, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667e31ef94bac9fe6443f382"}, "remainingTimeMS": 30}
+2024-06-28 10:45:52,758  * Debugger is active!
+2024-06-28 10:45:52,760  * Debugger PIN: 115-540-023
+2024-06-28 10:48:44,646  * Detected change in 'D:\\LEARNING SPACE\\BookProject\\Book-Streaming\\consumer.py', reloading
+2024-06-28 10:48:44,646 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:48:45,816  * Restarting with stat
+2024-06-28 10:49:00,946 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:49:01,526 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:50:54,116 loading Word2Vec object from ./model/glove_embedding.model
+2024-06-28 10:50:54,125 loading wv recursively from ./model/glove_embedding.model.wv.* with mmap=None
+2024-06-28 10:50:54,125 setting ignored attribute cum_table to None
+2024-06-28 10:50:54,135 Word2Vec lifecycle event {'fname': './model/glove_embedding.model', 'datetime': '2024-06-28T10:50:54.128844', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 10:50:54,138 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667e331e04568b3e40e3c17d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667e331e04568b3e40e3c17d"}, "remainingTimeMS": 30}
+2024-06-28 10:50:55,709 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-28 10:50:55,709 [33mPress CTRL+C to quit[0m
+2024-06-28 10:50:55,710  * Restarting with stat
+2024-06-28 10:51:30,413 loading Word2Vec object from ./model/glove_embedding.model
+2024-06-28 10:51:30,423 loading wv recursively from ./model/glove_embedding.model.wv.* with mmap=None
+2024-06-28 10:51:30,423 setting ignored attribute cum_table to None
+2024-06-28 10:51:30,432 Word2Vec lifecycle event {'fname': './model/glove_embedding.model', 'datetime': '2024-06-28T10:51:30.426241', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 10:51:30,435 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667e3342447b86d712f240cd, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667e3342447b86d712f240cd"}, "remainingTimeMS": 30}
+2024-06-28 10:51:31,956  * Debugger is active!
+2024-06-28 10:51:31,958  * Debugger PIN: 115-540-023
+2024-06-28 10:54:47,845  * Detected change in 'D:\\LEARNING SPACE\\BookProject\\Book-Streaming\\word2vec.py', reloading
+2024-06-28 10:54:47,845 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:54:48,950  * Restarting with stat
+2024-06-28 10:55:23,421 loading Word2Vec object from ./model/glove_embedding.model
+2024-06-28 10:55:23,430 loading wv recursively from ./model/glove_embedding.model.wv.* with mmap=None
+2024-06-28 10:55:23,430 setting ignored attribute cum_table to None
+2024-06-28 10:55:23,439 Word2Vec lifecycle event {'fname': './model/glove_embedding.model', 'datetime': '2024-06-28T10:55:23.433272', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 10:55:23,441 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667e342b311508790e6741a0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667e342b311508790e6741a0"}, "remainingTimeMS": 30}
+2024-06-28 10:55:25,078  * Debugger is active!
+2024-06-28 10:55:25,080  * Debugger PIN: 115-540-023
+2024-06-28 10:57:57,612  * Detected change in 'D:\\LEARNING SPACE\\BookProject\\Book-Streaming\\glove.py', reloading
+2024-06-28 10:57:57,613 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:57:58,702  * Restarting with stat
+2024-06-28 10:59:06,034 loading Word2Vec object from ./model/glove_embedding.model
+2024-06-28 10:59:06,035 loading wv recursively from ./model/glove_embedding.model.wv.* with mmap=None
+2024-06-28 10:59:06,036 setting ignored attribute cum_table to None
+2024-06-28 10:59:06,045 Word2Vec lifecycle event {'fname': './model/glove_embedding.model', 'datetime': '2024-06-28T10:59:06.039718', 'gensim': '4.1.2', 'python': '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+2024-06-28 10:59:06,048 {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "ping", "topologyDescription": "<TopologyDescription id: 667e350a56b1be2b3ecde20c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "667e350a56b1be2b3ecde20c"}, "remainingTimeMS": 30}
+2024-06-28 10:59:08,333  * Debugger is active!
+2024-06-28 10:59:08,335  * Debugger PIN: 115-540-023
+2024-06-28 10:59:43,421  * Detected change in 'D:\\LEARNING SPACE\\BookProject\\Book-Streaming\\word2vec.py', reloading
+2024-06-28 10:59:43,421 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 10:59:44,534  * Restarting with stat
+2024-06-28 11:00:23,705 System shutting down. Cleaning similarity matrix of current session...
+2024-06-28 11:00:24,636 System shutting down. Cleaning similarity matrix of current session...

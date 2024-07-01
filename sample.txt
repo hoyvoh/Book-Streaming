@@ -1,0 +1,768 @@
+{
+  "_id": {
+    "$oid": "667a51f86817f481a7b3762e"
+  },
+  "key": "190861557",
+  "value": {
+    "ID": "190861557",
+    "STOCK_KEEPING_UNIT": "5337995399326",
+    "TITLE": "Yêu Những Ngày Nắng Chẳng Ghét Những Ngày Mưa",
+    "AUTHORS": "Kulzsc",
+    "PRICE": "60000",
+    "ORIGINAL_PRICE": "132000",
+    "RATING_AVERAGE": "5",
+    "REVIEW_COUNT": "895",
+    "INVENTORY_STATUS": "available",
+    "all_time_quantity_sold": "5399",
+    "DESCRIPTION": "Sau thành công của “Tô bình yên vẽ hạnh phúc” và “Mình chỉ là người bình thường”, chàng họa sĩ nổi tiếng đa tài Kulzsc đã quay trở lại với “Yêu những ngày nắng Chẳng ghét những ngày mưa”. Cuốn sách là sự kết hợp hài hòa và thú vị của thể loại Sách tản văn và Sách tô màu.Đặc biệt hơn cả, “Yêu những ngày nắng Chẳng ghét những ngày mưa” còn là hành trình VẼ ĐỂ CHỮA LÀNH. Qua 168 trang sách, Kulzsc khéo léo dẫn bạn vào thế giớiđầy màu sắc với đầy đủ cung bậc cảm xúc. Nơi bạn có thể thoải mái bật cười nhưng đồng thời cũng có thể thả lỏng để nỗi buồn trôi đi.Mỗi bức tranh là một lời tâm tình thủ thỉ của tác giả, rằng:- “Dành thời gian yêu cả nỗi buồn vì chúng ta dường như quá thiên vị nụ cười…”- “Nếu bạn nhìn cuộc sống xung quanh bằng một góc nhìn dễ thương thì mọi thứ đều trở nên dễ thương!”- “Hành trang vào đời mình mong bạn có đủ dũng cảm. Dũng cảm lựa chọn - Dũng cảm yêu thương - Dũng cảm tin tưởng - Dũng cảm trải nghiệm và Dũng cảm chấp nhận”…Nếu bạn đặt bút vẽ vào một “ngày nắng”, hi vọng bạn thêm trân trọng và biết ơn với những điều giản đơn mà cuộc đời ban tặng mình.Nếu bạn đặt bút vẽ vào một “ngày mưa”, hi vọng bạn đủ hiểu, bao dung và dịu dàng với nỗi buồn của chính mình.Hành trình chữa lành chỉ thực sự diễn ra khi chúng ta yêu bản thân từ bên trong, trong những ngày mình “đẹp đẽ” và cả những ngày ta “xấu xí”.Mong rằng với “Yêu những ngày nắng Chẳng ghét những ngày mưa” bạn sẽ được truyền một chút cảm hứng để vẽ mọi thứ xung quanh cuộc sống của mình, theo một cách giản đơn hơn, dễ thương hơn, mang nhiều tình yêu thương hơn. Bạn không cần vẽ giống bất cứ ai, cũng không cần vẽ thật nắn nót, hãy cứ sáng tạo và tìm tòi. Hãy để cuốn sách này mang dấu ấn riêng của bạn, mang cả những tâm tư, góc nhìn của bạn.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....",
+    "CATEGORIES": "Nhà Sách Tiki, Sách tiếng Việt, Điện Ảnh - Nhạc - Họa, Sách Tô Màu Dành Cho Người Lớn, Yêu Những Ngày Nắng Chẳng Ghét Những Ngày Mưa",
+    "SELLER_ID": 1,
+    "SELLER_NAME": "Tiki Trading",
+    "COMMENTS": [
+      {
+        "CommentID": 17297014,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Mình đã mua và sử dụng những quyển sách của tác giả này rồi. Với lối vẽ siêu cute và lối viết hay về cuốn sách, tâm trạng, bức tranh , khi mình nghe chú nói về quyển sách mới ra lò nên mình không ngần ngại mà mua luôn\nĐáng mua, chấn 5 sao",
+        "rating": 5,
+        "thank_count": 2,
+        "User": "Đỗ Thị Việt Phương",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17553913,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đúng những điều cần\r\nK lê thê dài dòng, 1 trang viết ngắn, 1 đoạn văn ngắn vậy thôi là đủ với mình\r\ncó nhiều hình vẽ dễ thương nữa\r\nSách hướng dẫn vẽ nhiều nhưng mình thì hiếm khi vẽ, có lẽ sẽ thử vào một lúc nào đó",
+        "rating": 5,
+        "thank_count": 5,
+        "User": "Nguyễn Minh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17240751,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách rất thơm, trông xinh lắm, có chữ kí của anh chú nên siêu mê, chất lượng giấy tốt, postcard siêu xing nhưng hơi mỏng. Ship về hơi lâu và sách không được bọc chống xóc nên dù hộp ngoài nguyên nhưng sách đã bị cong mép, ảnh này mình chụp sau khi đã lấy chồng sách đè lên mới hết cong. Nhưng rất đáng mua nhé.",
+        "rating": 5,
+        "thank_count": 4,
+        "User": "Nguyễn Thị Linh Trang",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17224245,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "-Yêu Những Ngày Nắng Chẳng Ghét Những Ngày Mưa-\nlúc sách công bố bìa là hóng để săn bản có chữ kí tay của a kluz roiii, công nhận 500 bản mà hết nhanh quá may mà tui săn được kekeeke \nMình mua sách là do mình yêu thích những nét vẽ dễ thương và là fan bê tông của a=))\nSách xinh lắm ạ, a kulz còn hướng dẫn vẽ kèm theo những lời tâm sự rất dth 💗 \nNgại gì mà k đặt sách đi mí bồ :3 iu thương",
+        "rating": 5,
+        "thank_count": 5,
+        "User": "Ng Thi Chung",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19307204,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách dành cho ai thích tô vẽ và ít chữ. Sách dễ thương. Thông điệp đơn giản, tích cực trong cuộc sống. Hình vẽ cũng dễ thương. Giấy tốt. Tiki giao hàng nhanh, cẩn thận.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Huynh Thi Van Anh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17242388,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách của anh chú nhà tui thì xinh với xịn khỏi phải bàn rùi, mở ra sách thơm cực lun í, postcard cũng đáng iu lắm\nChữ ký xinh lắm lun, lại còn màu xanh lá tui thích nữaaaa\nNhưng khâu xử lí hàng hơi lâu với cả đóng gói hơi sơ sài, sách của tui còn bị bẩn 1 chút ở gáy😢",
+        "rating": 5,
+        "thank_count": 1,
+        "User": "Hoàng Nguyên",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17208619,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đợi thời gian xử lý lâu chút thôi chứ giao hàng thì nhanh. Đóng gói thì ở mức ổn. Sách mk nhận đc đẹp, đúng phân loại, poscard siu đẹppppp, sách dày dặn, cầm rất nặng tay 😆❤️❤️❤️",
+        "rating": 5,
+        "thank_count": 4,
+        "User": "Nguyễn Thị Hồng Nhung",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17218671,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đóng gói chắc chắn, sách không bị bẩn hay móp méo. Đặt bản siêu đặc biệt nên ưng lắm :> chờ giao hàng hơi lâu tí nhưng đáng đồng tiền 😗 sẽ ủng hộ anh Tùng Thanh Mai dài dài ạa",
+        "rating": 5,
+        "thank_count": 3,
+        "User": "Đoan Nguyễn",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19014995,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "51k cuốn sách. Giao hàng nhanh, đóng gói cẩn thận. Thấy sale nên đặt. Trước mình từng đặt cuốn Tô bình yên giá rẻ hơn mà thấy ok hơn cuốn này",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Phạm Thị Thuỳ Dung",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17250491,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách siêu siêu đáng yêu cùng với những thông điệp rất ý nghĩa. Sách sẽ mang các bạn đến và nhận ra niềm vui từ rất nhiều những điều nhỏ nhặt. Tuy thời gian vận chuyển bị trễ so với dự kiến và cả khi sách bị cấn ở gáy thì mình cũng xem đó như một dấu ấn riêng biệt. Hy vọng các bạn có những quyển sách không phải là đẹp nhất, nhưng lại là những quyển sách khác biệt nhất một ngày thật ấm áp !\nMong anh chú Kulzsc sẽ mang đến cho mọi người thật nhiều đứa con tinh thần nữa nhé !",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Xuân Mai",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17269667,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách xinh xỉu đây là cuốn sách thứ 3 mà mik mua trong 4 cuốn mà anh kulzsc từng sáng tác rùii nên ko còn j để chê lun á mik mua em này là vì 3 tấm postcard xinhh cực luônnn lúc mik mua thì sách ko có chữ kí nên hơii buồnn",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "lê thị kim huyền",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17257259,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "quá tuyệt vời. giao hàng siu nhanh, nhưng đóng gói hơi thất vọng, đóng gói quá ẩu nhưng may là sách dập góc xíu thoii. Sách của anh Kulz mãi xinh nhé!!!",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Bi Bi Trang'ss",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17241873,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách mới cưng xỉu, pót ca cũng dị, sách của Kulzcs xuất bản cuốn nào cũng mê lun á :333\nmong chờ sản phẩm típ theo của anh Kulzcs :3÷÷",
+        "rating": 5,
+        "thank_count": 1,
+        "User": "Nguyễn Linh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17218417,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách siêu siêu đẹp luôn . Siêu thíchhhh ạ :3. Mãi ủng hộ anh Kul :3 nhưng mà sao nỡ có 1 vết xước ở bìa đầu trang sách của mình :",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Mẫn Thư",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17417326,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đóng gói nhanh. Mỗi tội k có bọc nên sách bị bóp méo. Giao hàng nhanh. Sách của kulzsc rất cute. Nhẹ nhàng , thư giãn lắm. Mb",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Phan Hải Triều",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17219986,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách đẹp đáng iu kinh khủng có điều giao hơi lâu với cả là đóng gói theo cảm nhận của mình thì nên bọc sách lại bằng miếng chống sốc để tránh tình trạng bị móp méo góc sách í 🥲,may là sách mình chỉ bị lỗi df chút ít nma cũng xót xĩu",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Dương Thị Ngọc Tiên",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17234754,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sản phẩm đẹp, xinh, mới cóng. Đóng gói hàng cẩn thận cho 💯 , vận chuyển giao hàng nhanh 🤩",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Minh Nguyen",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17352245,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Màu sắc đẹp, đóng gói kỹ, giao nhanh, nhưng có vài chỗ bị vệt đen và hơi xước, nói chung không ảnh hưởng đến chất lượng sản phẩm. Hài lòng",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Phan Hải Anh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19032036,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Không nghĩ bản này lại in theo chiều dọc vì trước đây có mua cuốn hạnh phúc gì đó ở bản ngang. Những không ảnh hưởng gì. Nội dung dễ thương, dẫn dắt hấp dẫn, có hướng dẫn vẽ từng icon và tô màu, viết lại nhưng suy nghĩ qua từng trang giấy trắng.  \r\nChọn một phương thức để giải trí theo kiểu hướng nội thì đây hẳn là phương pháp tiềm năng.\r\n\r\nRất xin lỗi rặng ảnh không liên quan những mọi người đọc qua nhận xét có thể phần nào hiểu đucojw nội dung của nó.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Abéo Abi",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17222538,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Chất lượng ổn, chưa kịp đọc nhưng mà sách giao nguyên vẹn nên ưng 🥲",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Le Ngok",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17286939,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Thực sự rất thích sách của anh, hiệu quả chữa lành rất tốt.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Đỗ Anh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17222197,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đóng gói cẩn thận, sách siêu xinh, siêu đáng yêu. Mua được bản đặc biệt nên rất vui với háo hức để được nhận nhưng thời gian xử lí hơi lâu ạ còn giao hàng thì khá nhanh. Rất thích sách của tác giả và luôn ủng hộ Kulzsc ạ 🥰🥰🥰",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Vũ Thị Thu Trang",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17242785,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách xinh muốn xỉuuu luôn thích sách thích cả tác giả nữa :33",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyen Tran Hong Tham",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17259682,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "giao hàng nhanh, đóng gói kỹ, sách quá tr xinh luôn, chữ ký của chú cũng đáng yêu nữa. iem iu chú!! Yêu thương nèeeeee❤❤",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Anh Thư",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17214767,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách xinh lắm nhaa\r\nBản đặc biệt mua đúng một tuần mới nhận đc nèee\r\nXinh xĩu \r\nXứng đáng va giá tiền nhenn",
+        "rating": 5,
+        "thank_count": 2,
+        "User": "Phạm ngân",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17242599,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Chờ sách về giống như kiểu chờ ny đến đón đi chơi vậy❤❤\nsách siu đẹp siu dễ thương luôn😊😊",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trần Thị Hải Mỹ",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17218824,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Giao nhanh hơn ngày dự kiến, sách đẹp mà có dính dơ ở ngoài bìa, lau ko ra nma được díp postcard nữa🥺",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Thu Hằng",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17196714,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách lần này gọn hơn so với 2 cuốn sách tô màu trước mình mua của Kulzsc sách rất dễ thương lần này còn có hướng dẫn cả vẽ nữa bữa mua lúc giảm giá còn 90k mua kèm với mã giảm nên chỉ có 75k quá rẻ luôn",
+        "rating": 5,
+        "thank_count": 1,
+        "User": "Hoàng Anh ",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17240375,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách dày, tranh rất đẹp và dễ thương, chất lượng ok, thời gian phê duyệt hơi lâu, giao hàng thì trong ngày, shipper thân thiện, nói chung rất tuyệt vời.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Đỗ Thị Thu Hà",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17300815,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Vì có chữ ký mà khi nhận sách mình run tay luôn ấy ạ. Tuyệt vời lắm lắm luôn ạ.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Phương Trâm",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17215048,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Nhận sách mà vui xĩu❤️",
+        "rating": 5,
+        "thank_count": 1,
+        "User": "Thiên Phú",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17220906,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Thời gian chờ sách hơi lâu, mình đặt từ hôm mở link mà 10 ngày sau mới nhận được sách. Và mong bên đóng gói sẽ cẩn thận hơn chút xíu nữa. Tuy nhiên sách đẹp nên có chờ lâu hơn cũng được😉😉😉",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hải Anh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17292003,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Shipper bao thân thiện, hòa đồng luôn. Sách chất liệu tốt. Tiếc là không có chữ ký của tác giả.. :(  . Đọc nhận xét của mn hơi hồi hợp vì sách vận chuyển không chống sốc. Nhưng may là sách không sao",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyển Lê Thúy Lam",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17246157,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Tuyệt vời quá lioonnn :3",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Võ Ngọc Minh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17235344,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách chất lượng và giấy dày\nBao bì rất đpej\nNhưng đóng gói không đucojw cẩn thẩn lắm\nGiao hàng nhanh nưhubg xác nhận của tiki khá lâu",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Huỳnh Lê Ánh Vy",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17241908,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách rất xinh, hình rất đẹp, tranh và màu xinh xỉu luôn\r\nLần sau ra sách mới sẽ ủng hộ nữa ạ 🙆🏻‍♀️🙆🏻‍♀️",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Lê Thị Hảo ",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17245712,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách đẹp xỉu, giao hàng siêu nhanh chỉ có điều là thời gian chuẩn bị đơn hàng lâu quá. Lúc giao hàng hộp còn bị móp nữa",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Lê Thị Trúc Mai",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17283069,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "nhận lâu r nma quên đánh giá huhu\nthực sự rất xinh luôn, đáng tiền \nthấy anh ra sách là hốt luôn bản siêu đặc biệt về nè 💗🐥\nhộp của tiki ko sao giờ móp cả, ưng lắm ạ!!!!",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyễn Vũ Anh Thơ",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19357101,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "giao nhanh lắm nha cỡ 2 ngày là tới, sách không bị móp méo hay hư hại gì",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trinh Mimi",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17449084,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Giao hàng nhanh cực kì, chất lượng tốt nè, anh shipper thân thiện cực kì, lần sau sẽ tiếp tục ủng hộ nè 🥰🥰",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Kim Hoar",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17276513,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sản phẩm rất tốttt, hơn cả tuyệt vờiiii :33",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyễn trọng tính",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17240205,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Giao hàng đúng hẹn\r\nĐóng gói cẩn thận\r\nSách đẹp, có tặng kèm quà\r\nSách rất hay và xịn, đáng mua",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trong Nhan Dang",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19360664,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Mua của tiki rất thích, giao hàng nhanh, đóng gói kỹ",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trinh Trinh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17215490,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sản phẩm đẹp rất dày dặn đóng gói chắc chắn ko bị móp méo ạ nói chung là rất ok ạ ^^",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Bảo Nghi",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17237580,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Tuyệt vời ⊂(•‿•⊂ )*.✧",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyễn Hoàng Linh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17229690,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách 5⭐ vận chuyển 1⭐",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Quỳnh Như",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17235319,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách của anh Kulzsc chưa bao giờ làm mình thất vọng, lần này đặt được bản chữ kí nên rất vui ạ 🙆🏻‍♀️🙆🏻‍♀️🙆🏻‍♀️",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trần Trúc An",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17258664,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đóng gói kĩ, giao hàng nhanh nhưng hơi buồn vì giao hàng không kịp thời gian để đi tham gia buổi kí tặng của anh. Nhưng phải nói là rất thích sách của anh luôn, những nét vẽ nó cute kiểu gì ấy..",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hạnh Quyên",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17215710,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Giao hàng hơi lâu thôi nhưng mà sách k bị sao hết, Sách mới siêu xinh lun 😍",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "My Nguyễn",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17321801,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách siu siu đáng yêu nheeee \r\nEo ơi cưng xỉu luôn á. Cảm ơn  Kulzsc đã tạo ra một quyển sách chữa lành như này nheeee\r\nYêu ghê ý :33333",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Linh Nguyễn",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17587251,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách xinh lắm dễ thương, đóng gói cẩn thận a shipper thân thiện nữa",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Quyên Trần",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17254229,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "sách siêu xinh, đóng gói cẩn thận, sách rất phù hợp với giá tiền.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Huỳnh Thị Mỹ Hạnh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17229971,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Mới nhận hàng là unbox liền tròi oi thích ghê mà ko bt sao ai cũng chữ kí màu xanh nước hoặc đen còn mình thì màu xanh lá =))",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Khang Baymax",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17261797,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Dễ thương đến từng trang sách. Chất lượng sách khá tốt, hình ảnh sắc nét... Hãy cầm trên tay và cảm nhận 😍😍😍",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Phi Tuyết",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17234172,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Tiên Nguyễn",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17931637,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách đẹp nha, giao hàng nhanh, sẽ luôn ủng hộ Tiki",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Minh Huỳnh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19691904,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách mua đợt giảm giá, bao kĩ, giao đúng hẹn",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Thoại Huỳnh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 18184852,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách nhỏ nhỏ xinh xinh, bên trong nhiều tranh tô cũng có nhiều câu chuyện nữa, thời gian giao hàng nhanh",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Linh Lan",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17517038,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách đẹp, giao hàng nhanh, shop phục vụ nhiệt tình",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "phạm trần tuấn",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17299147,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đây là cuốn thứ 3 mình sở hữu Kulzsc ,thật sự rất thích, sách dày và đẹp lắm, lúc nhận hàng thì shop chỉ bỏ cuốn sách sơ xài vào hộp, không quấn thêm bọc chống sốc hay j hết, may là cuốn sách không bị sao. Shop chú ý nhé",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hạnh Hồ",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17217072,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách siêu siêu xinh đẹp luôn ạ, được đóng gói kĩ càngggg, sách anh Kulzsc chưa bao giờ làm mình thất vọng í",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trần Trúc An",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17225614,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Giao hàng rất tệ, sách gấp góc, cấn gáy",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyễn Hưng",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17393345,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách đẹp, đúng, chất lượng\r\nHơi buồn bộ phận shipper 1 chút làm bé sách dập góc rồi huhu =((((",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Amy Nguyen",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17270381,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách rất là cuteee 💓💓\nNên mua:>>>",
+        "rating": 5,
+        "thank_count": 1,
+        "User": "Luna Pham",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17208611,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách đáng yêu siêu dễ thương hihi",
+        "rating": 5,
+        "thank_count": 2,
+        "User": "Đoàn Trang",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17923242,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Hình vẽ cute quá chời, đang tập vẽ kiểu này mà có cuốn này là tui khoái lắm😍",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hồng Hạnh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 18940413,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách hay nha mn. Mình mua cả 5 cuốn để tô màu ấy. Tính ra mỗi cuốn chưa tới 70k. Mua ở tiki giao 2h cực nhanh. Ủng hộ tiki",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Cô Hân",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17296919,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Chủ đề đa dạng nhiều màu sắc. In ấn đẹp được cả mấy cái poscart dễ thương xỉu.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hảo bùi",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17237073,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách thiết kế rất là đẹp luôn… nội dung cũnh rất ý nghĩa đối với mình. Thích lắm a❤️. Được đóng gói rất cẩn thận và giao hàng cũng nhanh!",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Thảo Trầm",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17217553,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Đẹp, rõ nét, rất đáng tiền",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hoàng Yến",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17332225,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách đẹp, màu in sắc nét, giấy dày dặn.\nNhưng mà giao hàng quá lâu, hộp thì móp hết.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Hoài Thái",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 18534572,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "giấy dày đẹp thích cực mà quan trọng là nội dung dễ thương xỉu",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Mai Ngọc Phương Trinh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 19105757,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Xinh lắm nhed, sách in hình rõ đẹp, nên mua nha mn",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyễn Ly",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17965906,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Chất lượng sản phẩm tốt mặc dù mình thấy trông hình mô tả có mấy tấm cạc nhưng k sao hình inh rất rõ nét đẹp \r\n😘😊😊😍",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyen Thi Nghia",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17231755,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách rất dễ thương, nét vẽ duyên dáng. Cuốn sách mang lại cảm xúc nhẹ nhàng bình yên đến lạ. Cuốn sách nhỏ gọn dễ mang và cầm đằm tay",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "MyungHee Ami",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17256342,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Sách không bọc chống sốc nhưng không bị ảnh hưởng. Giao hàng siêu nhanh, hôm trước đặt hơm sau đã nhận được. Giá ổn áp. Sách dày, xịn.",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Lan Vy",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17218470,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Tuyệt vời ạ 👍🏻",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Dịu NT",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 18416644,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Trần Thị Hồng Nhung",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17232365,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Giao hàng nhanh hơn dự kiến, sách đẹp, siêuuu dễ thưngggg. Mua đêêê mn ơiiii!",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Lý Chanh",
+        "ProductID": 190861557
+      },
+      {
+        "CommentID": 17731847,
+        "CommentTitle": "Cực kì hài lòng",
+        "Content": "Hàng giao nhanh, đóng gói cẩn thận, sách thì đẹp và đáng yêu vô cùng",
+        "rating": 5,
+        "thank_count": 0,
+        "User": "Nguyễn Thị Linh Nhi",
+        "ProductID": 190861557
+      }
+    ],
+    "FEATURES": [
+      "yêu những ngày nắng chẳng ghét những ngày mưa",
+      "kulzsc",
+      [
+        "mang",
+        "tình yêu thương",
+        "đẹp đẽ",
+        "ngày",
+        "cuộc sống",
+        "mình",
+        "Nhà Sách Tiki",
+        " Sách tiếng Việt",
+        " Điện Ảnh - Nhạc - Họa",
+        " Sách Tô Màu Dành Cho Người Lớn",
+        " Yêu Những Ngày Nắng Chẳng Ghét Những Ngày Mưa"
+      ],
+      1,
+      [
+        78,
+        0,
+        0,
+        1
+      ]
+    ]
+  }
+}

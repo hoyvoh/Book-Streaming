@@ -139,10 +139,10 @@
 }
 
 .recommended-product {
-  border: 1px solid #ccc;
+  border: 0.5px solid #ccc;
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #4a4a4a;
 }
 
     </style>
@@ -170,7 +170,7 @@
                     {{ product.get('value', {}).get('DESCRIPTION', 'No Description') }}
                 </p>
             </div>
-            <h4>Static Content-based Recommended Books</h4>
+            <h4>BERT-based Static Recommended Books</h4>
             <div class="recommended-products">
                 {% if recommendations|length > 0 %}
                 {% for book in recommendations %}
@@ -192,8 +192,9 @@
                 {% endfor %}
                 {% endif %}
             </div>
-            <h4>Dynamic Content-based Recommended Books | Approach 1</h4>
+            <h4>BERT-based Dynamic Last 10 Recommended Books</h4>
             <div class="recommended-products">
+                
                 {% if dynamic_recommend1|length > 0 %}
                 {% for book in dynamic_recommend1 %}
                 
@@ -214,7 +215,7 @@
                 {% endfor %}
                 {% endif %}
             </div>
-            <h4>Dynamic Content-based Recommended Books | Approach 2</h4>
+            <h4>BERT-based Dynamic All Seen Recommended Books</h4>
             <div class="recommended-products">
                 {% if dynamic_recommend2|length > 0 %}
                 {% for book in dynamic_recommend2 %}
@@ -233,6 +234,195 @@
                         <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
                         <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
                 </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Skip-gram Static Recommendation</h4>
+            <div class="recommended-products">
+                {% if skg_static|length > 0 %}
+                {% for book in skg_static %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Skip-gram Last 10 products Recommendation</h4>
+            <div class="recommended-products">
+                {% if skg_dy10|length > 0 %}
+                {% for book in skg_dy10 %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Skip-gram All Seen Recommendation</h4>
+            <div class="recommended-products">
+                {% if skg_all|length > 0 %}
+                {% for book in skg_all %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Continuous Bag-of-Words Static Recommendation</h4>
+            <div class="recommended-products">
+                {% if cbow_static|length > 0 %}
+                {% for book in cbow_static %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Continuous Bag-of-Words Last 10 Recommendation</h4>
+            <div class="recommended-products">
+                {% if cbow_dy10|length > 0 %}
+                {% for book in cbow_dy10 %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Continuous Bag-of-Words All Recommendation</h4>
+            <div class="recommended-products">
+                {% if cbow_all|length > 0 %}
+                {% for book in cbow_all %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Global Vector Static Recommendation</h4>
+            <div class="recommended-products">
+                {% if glove_static|length > 0 %}
+                {% for book in glove_static %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Global Vector Last 10 Recommendation</h4>
+            <div class="recommended-products">
+                {% if glove_10|length > 0 %}
+                {% for book in glove_10 %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h4>Global Vector All Recommendation</h4>
+            <div class="recommended-products">
+                {% if glove_all|length > 0 %}
+                {% for book in glove_all %}
+
+                    <div class="product">
+                        <a href="{{ url_for('product.product_details', product_id=book.get('value', {}).get('ID', 'default_id')) }}">
+                            <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(book.get('value', {}).get('ID', 'default_image'))) }}" alt="">
+                            <h3>{{ book.get('value', {}).get('TITLE', 'Unnamed Product') }}</h3>
+                        </a>
+                            <h4>{{ book.get('value', {}).get('PRICE', 'N/A') }}</h4>
+                            <h5>{{ book.get('value', {}).get('AUTHORS', 'N/A') }}</h5>
+                            <p>Đánh giá: {{ book.get('value', {}).get('RATING_AVERAGE', 'N/A') }}</p>
+                            <p>Số đánh giá: {{ book.get('value', {}).get('REVIEW_COUNT', 'N/A') }}</p>
+                            <p>Đã bán: {{ book.get('value', {}).get('all_time_quantity_sold', 'N/A') }}</p>
+                            <p>Tình trạng: {{ book.get('value', {}).get('INVENTORY_STATUS', 'N/A') }}</p>
+                            <p>Nhà bán hàng: {{ book.get('value', {}).get('SELLER_NAME', 'N/A') }}</p>
+                    </div>
                 {% endfor %}
                 {% endif %}
             </div>

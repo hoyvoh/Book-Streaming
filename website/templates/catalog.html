@@ -20,7 +20,7 @@
     <div id="products">
         {% for product in products %}
             <div class="product">
-                <a href="{{ url_for('product.product_details', product_id=product.get('value').get('ID')) }}">
+                <a href="{{ url_for('product.product_details', product_id=product.get('value').get('ID'), product_title=product.get('value').get('TITLE')) }}">
                     <img src="{{ url_for('static', filename='book_img/{}.jpg'.format(product.get('value').get('ID'))) }}" alt="">
                     <h3>{{ product.get('value').get('TITLE', 'Unnamed Product') }}</h3>
                 </a>

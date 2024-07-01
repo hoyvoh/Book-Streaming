@@ -1,4 +1,4 @@
-# static recommendation
+# Approach 0: static recommendation
 def static_recommendation(product_features, vector_storage): -> list(productIDs)
     # Step 1: Embed new product features
     embed_features = feature_embedding(product_features)
@@ -47,3 +47,5 @@ def dynamic_recommendation_approach_1(user_log,
     
     # Step 3: Output 10 products
     return top10
+
+# Approach 3: Feature Selection using GNN

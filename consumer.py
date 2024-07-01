@@ -7,6 +7,8 @@ import processing
 # import similarity_matrix
 import vectorizer
 import numpy as np
+import word2vec
+import glove
 
 def get_mongo():
     # uri = "mongodb+srv://[USERNAME]:[PASSWORD]@cluster0.nex3ywa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true"
@@ -55,6 +57,11 @@ def convert_numpy_types(data):
 
 def consume_messages():
     config = read_config()
+    word2vec.initialize_models()
+    skgpath = './model/skipgram_w2v.model'
+    cbowpath = './model/cbow_w2v.model'
+    glove_model = glove.GloveBatchTraining()
+
     if not config:
         print("Configuration could not be read. Exiting.")
         return
@@ -64,7 +71,7 @@ def consume_messages():
     config["group.id"] = "python-group-2"
     config["auto.offset.reset"] = "earliest"
 
-    # test_pid = '109017985'
+    # alldata = []
 
     # creates a new consumer and subscribes to your topic
     consumer = Consumer(config)
@@ -77,7 +84,6 @@ def consume_messages():
     book_feature = db['BookFeatureIndexing']
     book_feature.drop()
     print("collection renewed!")
-
     
     import copy
     try:
@@ -91,19 +97,27 @@ def consume_messages():
             value = msg.value().decode("utf-8")
             # print(f"Consumed message from topic {topic}: key = {key} value = {value}")
             
-            
             try:
                 value_dict = json.loads(value)
 
                 value_dict_2 = copy.deepcopy(value_dict)
-                test_pid = key
-                test_title = value_dict['TITLE']
-                test_auth = value_dict['AUTHORS']
-                print(value_dict['TITLE'])
+                # test_pid = key
+                # test_title = value_dict['TITLE']
+                # test_auth = value_dict['AUTHORS']
+                # print(value_dict['TITLE'])
 
                 features, document = processing.main(value_dict_2)
                 value_dict['FEATURES'] = features
                 print(value_dict['TITLE'])
+            
+
+                # alldata.append({
+                #     'ID': value_dict['ID'],
+                #     'TITLE': value_dict['TITLE'],
+                #     'DESCRIPTION': value_dict['DESCRIPTION'],
+                #     'CATEGORIES' : value_dict['CATEGORIES'],
+                #     'FEATURES': value_dict['FEATURES']
+                # })
 
                 # Use similarity matrix
                 # similarity_matrix.main(document, matrix)
@@ -118,17 +132,29 @@ def consume_messages():
                 # insert product
                 collection.insert_one(doc)
                 print("insert {} successfully.".format(doc['key']))
-                
+
                 # Use dynamic vector indexing
                 # load 1 to vector database
                 vectorizer.load_vector_database(doc, db)
+                word2vec.update_w2v_model(value_dict, skgpath)
+                word2vec.update_w2v_model(value_dict, cbowpath)
+                glove_model.collect_batch_data(
+                    title=value_dict.get('TITLE'),
+                    description=value_dict.get('DESCRITION'),
+                    categories=value_dict.get('CATEGORIES'),
+                    features=value_dict['FEATURES']
+                )
+
+                
             except JSONDecodeError as e:
                 print(e)
     except KeyboardInterrupt:
       pass
     finally:
       # closes the consumer connection
-      consumer.close()
+        # df = pd.DataFrame(alldata)
+        # df.to_csv('./data/rawdata.csv')
+        consumer.close()
 
 if __name__ == '__main__':
     print("Starting the Kafka consumer...")

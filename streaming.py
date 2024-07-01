@@ -6,10 +6,10 @@ import threading
 # Create a kafka topic to remote 
 def create_kafka_topic():
 
-    url = "https://pkc-12576z.us-west2.gcp.confluent.cloud:443/kafka/v3/clusters/lkc-7omgwj/topics"
+    url = "https://pkc-12576z.us-west2.gcp.confluent.cloud:443/kafka/v3/clusters/lkc-6751p2/topics"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Basic Q0ZFMkNLSEVaS0lDNjMyRDo5L1FiSDZad1AyajlLc0FqZ1NwRTVYdG9ISnJCVkQ3SnBHM1NCSjNObkFrSDJma3l3ZmlxU0FzWldmWGtEZExr"
+        "Authorization": "Basic TU0zWkJUV1ZGRDdYR0dVQTpFTkRDbCttbEpwMndIM2NDNzFIUmtHT1djWUovclhFQVFyNHFtSG9YYVNzOTVFODRIY0tNNlJyOHprcVdMeFpz"
     }
     data = {
         "topic_name": "BookStreaming"
