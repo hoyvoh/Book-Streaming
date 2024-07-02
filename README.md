@@ -1,25 +1,18 @@
 # Book Streaming
 
-## About the project
+## Abstract
 
-In this project, I implemented a basic ETL and streaming pipeline, making use of several Viet NLP techniques to clean and preprocess the data before saving to MongoDB. Also, I made use of logistic regression, KeyBERT and transfer learning model to analyze 3 aspects of a book based on its metadata and descriptions. 
-Throughout the project, I was able to give content based recommendations for specific book in the database. 
+The expansion of the online marketplace has amplified the need for effective recommender systems to connect consumers with relevant products. This report explores and compares various product2vec strategies for embedding and recommending books. We implemented three key recommendation strategies: static vector, ten past products, and all past products, using vectorization techniques such as Bert-based embeddings, Continuous Bag of Words (CBOW), continuous skip-gram, and global vectors (GloVe). To improve feature extraction, we applied Natural Language Processing (NLP) techniques to book data before vectorization. More importantly, we implemented inference on three types of training techniques, the pre-trained BERT is only for inference, the online training for Word2Vec models, and the batch training strategy for GloVe, to deal with the streaming data using Confluent directly from Tiki.vn website. Our study presents a comparative analysis of 12 different recommendation approaches, highlighting their effectiveness in predicting ten books for each user. The findings aim to enhance recommender system research and development, offering valuable insights into optimizing recommendation accuracy and relevance.
 
-This is the high-level presentation of the processing flow:
-
-https://drive.google.com/file/d/1D7URvyL28PRY3QJG_dChUlpDF7lQOhjx/view?usp=drive_link
+*Keywords:* Recommender system, vector, vector-based, book, NLP, GloVe, BERT, word2vec
 
 The course reports associated with this project:
 
 [ERP](https://drive.google.com/file/d/1haCMTEdgZPSc6AzD8AlaNa6CsbfmF-qp/view?usp=sharing)
 
-[BigData]()
+[BigData](https://www.overleaf.com/read/kcjcgxnpttnd#7d29a3)
 
-If you do not have much of time, check this demo video:
-
-[Demo](https://drive.google.com/file/d/1DqAQWNrxSuS-Gn5PxfilrIvVFs26qCQY/view?usp=sharing)
-
-The API key is temporarily open for demo. I will close it soon after though you may not able to access my resources.
+The API key is temporarily open for demo. I will close it soon after though you may not be able to access my resources.
 
 ## Environment
 
