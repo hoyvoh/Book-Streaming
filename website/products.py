@@ -3,13 +3,14 @@ from . import collection, db, glove
 from pymongo import DESCENDING
 from vectorizer import update_user_vector_a1, update_user_vector_a2, semantic_search_vector, search_by_key
 from bson.son import SON
-from word2vec import update_user_log, queryByTitle, get10_user_log, get_all_user_log, w2vsemantic_search_vector
+from wordtovec import update_user_log, queryByTitle, get10_user_log, get_all_user_log, w2vsemantic_search_vector
 
 product = Blueprint('product', __name__)
 
 def get_recommendations(vector_func, product_title, path):
-    static_titles = queryByTitle(product_title, path)
-    static = fetch_products_by_titles(static_titles, product_title)
+    #print(product_title)
+    static = fetch_products_by_titles(w2vsemantic_search_vector(path, product_title), product_title)
+    # print(static)
     
     top10_embedding = vector_func(path)
     last10_titles = w2vsemantic_search_vector(path, top10_embedding)
@@ -144,13 +145,13 @@ def product_details():
     print('------------------')
 
     pathglove = 'model/glove_embedding.model'
-    static_embedding = glove.get_embedding(product_id)
+    static_embedding = glove.get_embedding(product_title)
     glove_titles_static = w2vsemantic_search_vector(pathglove, static_embedding)
     glove_static = fetch_products_by_titles(glove_titles_static, product_title)
     glove_top10_embedding = glove.get_user_vector()
-    glove_10_rcm = fetch_products_by_titles(glove.get_most_similars(glove_top10_embedding), product_title)
+    glove_10_rcm = fetch_products_by_titles(w2vsemantic_search_vector(pathglove,glove_top10_embedding), product_title)
     glove_all_embedding = glove.get_user_vector_all()
-    glove_all_rcm = fetch_products_by_titles(glove.get_most_similars(glove_all_embedding), product_title)
+    glove_all_rcm = fetch_products_by_titles(w2vsemantic_search_vector(pathglove,glove_all_embedding), product_title)
 
     print('> Global Vectors embedding recommendation')
     print('Static Recommendation')

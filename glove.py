@@ -15,7 +15,14 @@ GLOVE BATCH LEARNING
 import numpy as np
 from gensim.models import Word2Vec
 from pymongo import MongoClient
-from word2vec import sentences
+from wordtovec import extract_features
+from pandas import read_csv
+
+df = read_csv('./data/rawdata.csv', encoding='utf-8')
+cols = ['ID', 'TITLE', 'DESCRIPTION', 'CATEGORIES', 'FEATURES']
+initialData = df[cols].to_dict('records')
+
+sentences = [extract_features(data) for data in initialData]
 
 client = MongoClient('localhost', 27017)
 db = client['BookDatabase']
@@ -35,17 +42,19 @@ class GloveBatchTraining:
         self.model.save(self.path)
     
     def collect_batch_data(self, title, description, categories, features):
-        text_data = title.split() + description.split() + categories.split() + features.split()
-        self.batch_data.append(text_data)
-        self.item_id += 1
-        if self.item_id == 50:
-            self.item_id = 0
-            self.batch_id += 1
-            self.train_model()
-            self.save_model(self.path)
+        if title and description and categories and features:
+            text_data = title.split() + description.split() + categories.split() + features.split()
+            self.batch_data.append(text_data)
+            self.item_id += 1
+            if self.item_id == 50:
+                self.item_id = 0
+                self.batch_id += 1
+                self.train_model()
+                self.save_model(self.path)
     
     def train_model(self):
         if not self.model:
+            print('GloVe initialized.')
             self.initial_training()
 
         self.model.build_vocab(self.batch_data, update=True)
@@ -54,10 +63,11 @@ class GloveBatchTraining:
         self.batch_data = []
 
     def refresh_model(self):
+        print('GloVe Refreshed')
         self.model = Word2Vec.load(self.path)
 
     def get_embedding(self, title):
-        self.refresh_model()
+        # self.refresh_model()
         return self.model.wv[title] if title in self.model.wv else np.zeros(self.embedding_size)
 
     def get_user_vector(self, last_n=10):
