@@ -7,7 +7,7 @@ import processing
 # import similarity_matrix
 import vectorizer
 import numpy as np
-import word2vec
+import wordtovec
 import glove
 
 def get_mongo():
@@ -54,10 +54,10 @@ def convert_numpy_types(data):
         return data
 
 # matrix = similarity_matrix.Similarity_Matrix()
-
+import pandas as pd
 def consume_messages():
     config = read_config()
-    word2vec.initialize_models()
+    wordtovec.initialize_models()
     skgpath = './model/skipgram_w2v.model'
     cbowpath = './model/cbow_w2v.model'
     glove_model = glove.GloveBatchTraining()
@@ -71,7 +71,7 @@ def consume_messages():
     config["group.id"] = "python-group-2"
     config["auto.offset.reset"] = "earliest"
 
-    # alldata = []
+    alldata = []
 
     # creates a new consumer and subscribes to your topic
     consumer = Consumer(config)
@@ -112,11 +112,11 @@ def consume_messages():
             
 
                 # alldata.append({
-                #     'ID': value_dict['ID'],
-                #     'TITLE': value_dict['TITLE'],
-                #     'DESCRIPTION': value_dict['DESCRIPTION'],
-                #     'CATEGORIES' : value_dict['CATEGORIES'],
-                #     'FEATURES': value_dict['FEATURES']
+                #      'ID': value_dict['ID'],
+                #      'TITLE': value_dict['TITLE'],
+                #      'DESCRIPTION': value_dict['DESCRIPTION'],
+                #      'CATEGORIES' : value_dict['CATEGORIES'],
+                #      'FEATURES': value_dict['FEATURES']
                 # })
 
                 # Use similarity matrix
@@ -136,8 +136,11 @@ def consume_messages():
                 # Use dynamic vector indexing
                 # load 1 to vector database
                 vectorizer.load_vector_database(doc, db)
-                word2vec.update_w2v_model(value_dict, skgpath)
-                word2vec.update_w2v_model(value_dict, cbowpath)
+                print(skgpath, 'starts learning', value_dict.get('TITLE'))
+                wordtovec.update_w2v_model(value_dict, skgpath)
+                print(cbowpath, 'starts learning', value_dict.get('TITLE'))
+                wordtovec.update_w2v_model(value_dict, cbowpath)
+                print('GloVe starts learning', value_dict.get('TITLE'))
                 glove_model.collect_batch_data(
                     title=value_dict.get('TITLE'),
                     description=value_dict.get('DESCRITION'),
