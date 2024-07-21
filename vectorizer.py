@@ -288,6 +288,8 @@ if __name__ == '__main__':
     # print(cosine_similarity([x], [y])[0][0])
     # print(semantic_search_vector(x, db))
     # print(semantic_search_vector(y, db))
+    print('Vectorized of Chú Thuật Hồi Chiến -  Tập 5 is', vectorize_keywords('Chú Thuật Hồi Chiến -  Tập 5'))
+
     key2= '72459686'
     print(search_by_key(key2, db))
 

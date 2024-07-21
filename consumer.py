@@ -80,9 +80,9 @@ def consume_messages():
     client = get_mongo()
     db = client['BookDatabase']
     collection = db['BookCollection']
-    collection.drop()
+    # collection.drop()
     book_feature = db['BookFeatureIndexing']
-    book_feature.drop()
+    # book_feature.drop()
     print("collection renewed!")
     
     import copy
@@ -95,10 +95,14 @@ def consume_messages():
         if msg is not None and msg.error() is None:
             key = msg.key().decode("utf-8")
             value = msg.value().decode("utf-8")
-            # print(f"Consumed message from topic {topic}: key = {key} value = {value}")
+            print('----------')
+            
             
             try:
                 value_dict = json.loads(value)
+                print(f"Consumed message from topic {topic}: key = {key} value = {value_dict.get('TITLE')}")
+                if collection.find_one({'value.ID':value_dict.get('ID')}) :
+                    continue
 
                 value_dict_2 = copy.deepcopy(value_dict)
                 # test_pid = key
