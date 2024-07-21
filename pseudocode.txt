@@ -47,5 +47,3 @@ def dynamic_recommendation_approach_1(user_log,
     
     # Step 3: Output 10 products
     return top10
-
-# Approach 3: Feature Selection using GNN

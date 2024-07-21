@@ -50,7 +50,7 @@ class GloveBatchTraining:
                 self.item_id = 0
                 self.batch_id += 1
                 self.train_model()
-                self.save_model(self.path)
+                #self.save_model(self.path)
     
     def train_model(self):
         if not self.model:

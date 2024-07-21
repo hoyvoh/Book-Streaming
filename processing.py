@@ -279,7 +279,7 @@ def positive_probability(row):
         content_chunks = [content[i:i+512] for i in range(0, len(content), 512)]
         for chunk in content_chunks:
             lab = distilled_sentiment_classifier(chunk)
-            # print(lab[0][0]['label'])
+            print(lab[0][0]['label'])
             labs.append(lab[0][0]['label'])
     # print(labs)
     if len(labs) == 0:
@@ -323,24 +323,24 @@ def main(new_row=row):
 
 if __name__ == '__main__':
     # Process new row
-    # start = time()
+    start = time()
     new_row = row_processing(row)
-    # end = time()
+    end = time()
     
-    # print(new_row)
-    # print(f">>> Preprocessing completed after: {end-start}s")
+    print(new_row)
+    print(f">>> Preprocessing completed after: {end-start}s")
 
     # Extract features
     start = time()
     # something here
-    # sales = sales_likeability(new_row)
-    # print(f"Sales likeability: {sales}")
-    #positive = positive_probability(new_row)
+    sales = sales_likeability(new_row)
+    print(f"Sales likeability: {sales}")
+    positive = positive_probability(new_row)
     print(main(new_row))
-    # print(f"Positive likeability: {positive}")
-    # keywords = keyword_extraction(new_row)
-    # print(keywords)
-    # features = features_extraction(row)
-    # print(features)
+    print(f"Positive likeability: {positive}")
+    keywords = keyword_extraction(new_row)
+    print(keywords)
+    features = features_extraction(row)
+    print(features)
     end = time()
     print(f">>> Extraction completed after: {end-start}s")
