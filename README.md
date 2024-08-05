@@ -10,7 +10,7 @@ The course reports associated with this project:
 
 [ERP](https://drive.google.com/file/d/1haCMTEdgZPSc6AzD8AlaNa6CsbfmF-qp/view?usp=sharing)
 
-[BigData](https://www.overleaf.com/read/kcjcgxnpttnd#7d29a3)
+[BigData](https://drive.google.com/file/d/1fHoXeFpSvCnAvwXEssgft54pwCL3etST/view?usp=drive_link)
 
 The API key is temporarily open for demo. I will close it soon after though you may not be able to access my resources.
 
